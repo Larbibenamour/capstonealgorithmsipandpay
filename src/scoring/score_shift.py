@@ -15,7 +15,7 @@ from src.scoring.schema import ComponentScores, Order, ScoringConfig, WaiterMetr
 
 def compute_scores(
     orders_df: pd.DataFrame,
-    shifts_df: pd.DataFrame,
+    waiter_shifts_df: pd.DataFrame,
     staffing_df: pd.DataFrame,
     config: Union[Dict[str, Any], ScoringConfig],
 ) -> Dict[Union[str, int], Dict[Union[str, int], Dict[str, Any]]]:
@@ -24,9 +24,9 @@ def compute_scores(
     Main entry point for the scoring system. Returns nested dictionary of results.
 
     Args:
-        orders_df: DataFrame with order data (order_id, shift_id, assigned_waiter_id,
+        orders_df: DataFrame with order data (order_id, waiter_shift_id, assigned_waiter_id,
                    accepted_ts, completed_ts, items)
-        shifts_df: DataFrame with shift data (shift_id, start_ts, end_ts)
+        waiter_shifts_df: DataFrame with shift data (shift_id, start_ts, end_ts)
         staffing_df: DataFrame with staffing data (shift_id, bucket_start_ts, active_waiter_count)
         config: ScoringConfig object or dict with configuration parameters
 
@@ -35,10 +35,10 @@ def compute_scores(
 
     Examples:
         >>> orders_df = pd.DataFrame(...)  # Order data
-        >>> shifts_df = pd.DataFrame(...)  # Shift data
+        >>> waiter_shifts_df = pd.DataFrame(...)  # Shift data
         >>> staffing_df = pd.DataFrame(...)  # Staffing data
         >>> config = {"weights": {"efficiency": 0.5, "throughput": 0.3, "consistency": 0.2}}
-        >>> results = compute_scores(orders_df, shifts_df, staffing_df, config)
+        >>> results = compute_scores(orders_df, waiter_shifts_df, staffing_df, config)
         >>> results["shift_123"]["waiter_456"]["score"]
         78.5
     """
@@ -50,7 +50,7 @@ def compute_scores(
     orders = _parse_orders_from_dataframe(orders_df)
 
     # Validate input
-    _validate_inputs(orders, shifts_df, staffing_df, config)
+    _validate_inputs(orders, waiter_shifts_df, staffing_df, config)
 
     # Compute features for all orders
     item_weights = config.item_weights
@@ -80,7 +80,7 @@ def compute_scores(
     eff_stats = features.compute_consistency_score(eff_stats, method="iqr", epsilon=epsilon)
 
     # 5. Compute throughput
-    waiter_active_hours = _compute_waiter_active_hours(orders, shifts_df)
+    waiter_active_hours = _compute_waiter_active_hours(orders, waiter_shifts_df)
     throughput_df = features.compute_throughput(orders, item_weights, waiter_active_hours)
 
     # 6. Normalize within shifts
