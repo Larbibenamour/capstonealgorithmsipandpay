@@ -70,8 +70,8 @@ def aggregate_scores_by_period(
     # extract the underlying shift_id suffix and retry
     if merged["start_ts"].isna().all() and not scores_df.empty:
         def extract_shift_id(wshift_id: str) -> str:
-            # Pattern: {waiter_id}_shift_{shift_id} → extract suffix after last "_shift_"
-            idx = wshift_id.rfind("_shift_")
+            # Pattern: {waiter_id}_shift_{shift_id} → extract suffix after first "_shift_"
+            idx = wshift_id.find("_shift_")
             return wshift_id[idx + 7:] if idx != -1 else wshift_id
 
         scores_df["shift_id_lookup"] = scores_df["shift_id"].apply(extract_shift_id)

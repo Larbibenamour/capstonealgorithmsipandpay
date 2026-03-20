@@ -276,6 +276,7 @@ def _generate_orders(
             orders.append(
                 {
                     "order_id": f"order_{order_counter}",
+                    "shift_id": shift_id,  # Venue-level shift for fair comparison grouping
                     "waiter_shift_id": f"{waiter_id}_shift_{shift_id}",  # Individual waiter session
                     "assigned_waiter_id": waiter_id,
                     "accepted_ts": accepted_ts,

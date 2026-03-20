@@ -48,7 +48,7 @@ def compute_efficiency_raw_values(
         records.append(
             {
                 "order_id": order.order_id,
-                "shift_id": order.waiter_shift_id,
+                "shift_id": order.venue_time_period_id if order.venue_time_period_id is not None else order.waiter_shift_id,
                 "waiter_id": order.assigned_waiter_id,
                 "cycle_time": order.cycle_time_seconds,
                 "complexity": complexity,
@@ -127,7 +127,7 @@ def compute_throughput(
         complexity = compute_order_complexity(order, item_weights, default_weight=1.0)
         complexity_records.append(
             {
-                "shift_id": order.waiter_shift_id,
+                "shift_id": order.venue_time_period_id if order.venue_time_period_id is not None else order.waiter_shift_id,
                 "waiter_id": order.assigned_waiter_id,
                 "complexity": complexity,
             }
@@ -221,7 +221,7 @@ def extract_waiter_active_hours_from_orders(
     waiter_times: Dict[tuple, Dict[str, float]] = {}
 
     for order in orders:
-        key = (order.waiter_shift_id, order.assigned_waiter_id)
+        key = (order.venue_time_period_id if order.venue_time_period_id is not None else order.waiter_shift_id, order.assigned_waiter_id)
         if key not in waiter_times:
             waiter_times[key] = {"first_accepted": float("inf"), "last_completed": 0}
 
@@ -269,7 +269,8 @@ def compute_workload_intensity(
     order_records = []
     for order in orders:
         # Find staffing bucket for order's accepted_ts
-        shift_staffing = staffing_df[staffing_df["shift_id"] == order.waiter_shift_id]
+        lookup_shift_id = order.venue_time_period_id if order.venue_time_period_id is not None else order.waiter_shift_id
+        shift_staffing = staffing_df[staffing_df["shift_id"] == lookup_shift_id]
         if shift_staffing.empty:
             # Default to median staffing if no data
             active_count = staffing_df["active_waiter_count"].median()
@@ -287,7 +288,7 @@ def compute_workload_intensity(
         order_records.append(
             {
                 "order_id": order.order_id,
-                "shift_id": order.waiter_shift_id,
+                "shift_id": order.venue_time_period_id if order.venue_time_period_id is not None else order.waiter_shift_id,
                 "active_waiter_count": active_count,
                 "workload_intensity": workload_intensity,
             }

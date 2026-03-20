@@ -30,15 +30,18 @@ def compute_naive_rankings(orders_df: pd.DataFrame) -> pd.DataFrame:
         pd.to_datetime(orders_df["completed_ts"]) - pd.to_datetime(orders_df["accepted_ts"])
     ).dt.total_seconds()
 
-    # Compute mean cycle time per waiter per waiter_shift_id
+    # Use venue-level shift_id if available; fall back to waiter_shift_id for backward compatibility
+    group_col = "shift_id" if "shift_id" in orders_df.columns else "waiter_shift_id"
+
+    # Compute mean cycle time per waiter per shift
     naive_stats = (
-        orders_df.groupby(["waiter_shift_id", "assigned_waiter_id"])["cycle_time"]
+        orders_df.groupby([group_col, "assigned_waiter_id"])["cycle_time"]
         .mean()
         .reset_index()
     )
     naive_stats.rename(
         columns={"assigned_waiter_id": "waiter_id", "cycle_time": "mean_cycle_time",
-                 "waiter_shift_id": "shift_id"}, inplace=True
+                 group_col: "shift_id"}, inplace=True
     )
 
     # Rank within each shift (lower cycle time = better rank)

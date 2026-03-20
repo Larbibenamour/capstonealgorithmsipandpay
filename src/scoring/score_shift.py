@@ -105,7 +105,7 @@ def compute_scores(
             n_orders=int(row["n_orders"]),
             total_complexity=float(row["total_complexity"]),
             normalized_dispersion=float(row.get("normalized_dispersion", 0.0)),
-            config=config.dict() if hasattr(config, "dict") else config,
+            config=config.model_dump() if hasattr(config, "model_dump") else config,
         ),
         axis=1,
     )
@@ -150,6 +150,7 @@ def _parse_orders_from_dataframe(orders_df: pd.DataFrame) -> List[Order]:
             accepted_ts=pd.to_datetime(row["accepted_ts"]),
             completed_ts=pd.to_datetime(row["completed_ts"]),
             items=order_items,
+            venue_time_period_id=row.get("shift_id"),
         )
         orders.append(order)
 
@@ -208,11 +209,11 @@ def _apply_shift_shrinkage(scores_df: pd.DataFrame, shrinkage_strength: float) -
         )
         return group
 
-    scores_df = scores_df.groupby("shift_id", group_keys=False).apply(apply_shrinkage_to_group)
-
-    # groupby can drop the column when used as index — restore it
-    if "shift_id" not in scores_df.columns:
-        scores_df = scores_df.reset_index(names="shift_id")
+    # Use manual loop: pandas 3.0 drops the groupby key column in groupby.apply results
+    groups = []
+    for _, group in scores_df.groupby("shift_id"):
+        groups.append(apply_shrinkage_to_group(group))
+    scores_df = pd.concat(groups) if groups else scores_df
 
     return scores_df
 

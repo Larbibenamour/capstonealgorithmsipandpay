@@ -1,2881 +1,1285 @@
 {
-  "0": {
+  "shift_1": {
     "waiter_1": {
-      "score": 50.0,
-      "confidence": 0.5397123310857492,
+      "score": 59.60129618699657,
+      "confidence": 0.5747159327963359,
       "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
+        "efficiency": 62.5,
+        "throughput": 37.5,
+        "consistency": 87.5
       },
       "metrics": {
         "n_orders": 4,
-        "total_complexity": 21.0,
-        "active_hours": 5.304183474712902,
-        "median_eff_raw": 153.33356675,
-        "eff_dispersion": 68.25298657291668
-      }
-    }
-  },
-  "1": {
-    "waiter_1": {
-      "score": 50.0,
-      "confidence": 0.6300442142418102,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 6,
-        "total_complexity": 33.0,
-        "active_hours": 7.580878288878335,
-        "median_eff_raw": 158.11969557142857,
-        "eff_dispersion": 51.524172254464304
-      }
-    }
-  },
-  "2": {
-    "waiter_1": {
-      "score": 50.0,
-      "confidence": 0.7202639655711301,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 12,
-        "total_complexity": 55.0,
-        "active_hours": 7.032400328848097,
-        "median_eff_raw": 213.48028100000002,
-        "eff_dispersion": 67.23136265833332
-      }
-    }
-  },
-  "3": {
-    "waiter_1": {
-      "score": 50.0,
-      "confidence": 0.654352704445833,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 8,
-        "total_complexity": 46.0,
-        "active_hours": 7.942963026695781,
-        "median_eff_raw": 182.52994695,
-        "eff_dispersion": 77.98422946874999
-      }
-    }
-  },
-  "4": {
-    "waiter_1": {
-      "score": 50.0,
-      "confidence": 0.4208974358974359,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 1,
-        "total_complexity": 3.0,
-        "active_hours": 0.2294693707757526,
-        "median_eff_raw": 275.363245,
-        "eff_dispersion": 0.0
-      }
-    }
-  },
-  "5": {
-    "waiter_1": {
-      "score": 50.0,
-      "confidence": 0.6400122427936268,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 5,
-        "total_complexity": 30.0,
-        "active_hours": 6.260672049456173,
-        "median_eff_raw": 203.7218254,
-        "eff_dispersion": 40.262500625
-      }
-    }
-  },
-  "6": {
-    "waiter_1": {
-      "score": 50.0,
-      "confidence": 0.5672294339763522,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 5,
-        "total_complexity": 25.0,
-        "active_hours": 6.221407294736968,
-        "median_eff_raw": 220.76531071428573,
-        "eff_dispersion": 106.13356869999996
-      }
-    }
-  },
-  "7": {
-    "waiter_1": {
-      "score": 50.0,
-      "confidence": 0.7433964723205875,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 15,
-        "total_complexity": 80.0,
-        "active_hours": 6.888071349461874,
-        "median_eff_raw": 183.71901714285715,
-        "eff_dispersion": 64.07260786527777
-      }
-    }
-  },
-  "8": {
-    "waiter_1": {
-      "score": 50.0,
-      "confidence": 0.6619673040981465,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 8,
-        "total_complexity": 58.0,
-        "active_hours": 7.559092148343722,
-        "median_eff_raw": 178.753997625,
-        "eff_dispersion": 78.2770651875
-      }
-    }
-  },
-  "9": {
-    "waiter_1": {
-      "score": 50.0,
-      "confidence": 0.7062819764643145,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 9,
-        "total_complexity": 57.0,
-        "active_hours": 6.707139892511898,
-        "median_eff_raw": 187.78123666666667,
-        "eff_dispersion": 51.36452375000002
-      }
-    }
-  },
-  "10": {
-    "waiter_1": {
-      "score": 50.0,
-      "confidence": 0.7196146442502245,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 7,
-        "total_complexity": 38.0,
-        "active_hours": 6.851192445556323,
-        "median_eff_raw": 194.283682,
-        "eff_dispersion": 19.999403325000003
-      }
-    }
-  },
-  "11": {
-    "waiter_1": {
-      "score": 50.0,
-      "confidence": 0.5324813683147099,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 6,
-        "total_complexity": 26.0,
-        "active_hours": 6.428068246377839,
-        "median_eff_raw": 173.02492758333335,
-        "eff_dispersion": 179.31743201041664
-      }
-    }
-  },
-  "12": {
-    "waiter_1": {
-      "score": 50.0,
-      "confidence": 0.6571993063430743,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 7,
-        "total_complexity": 41.0,
-        "active_hours": 6.95855101135042,
-        "median_eff_raw": 165.7495604,
-        "eff_dispersion": 53.21642257361111
-      }
-    }
-  },
-  "13": {
-    "waiter_1": {
-      "score": 50.0,
-      "confidence": 0.6146127864289507,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 6,
-        "total_complexity": 32.0,
-        "active_hours": 7.45902775420083,
-        "median_eff_raw": 217.05446675000002,
-        "eff_dispersion": 85.43356350000002
-      }
-    }
-  },
-  "14": {
-    "waiter_1": {
-      "score": 50.0,
-      "confidence": 0.5969033909215842,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 7,
-        "total_complexity": 43.0,
-        "active_hours": 7.8597448955641855,
-        "median_eff_raw": 172.7845595,
-        "eff_dispersion": 129.27600478333335
-      }
-    }
-  },
-  "15": {
-    "waiter_1": {
-      "score": 50.0,
-      "confidence": 0.3812410908576891,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 3,
-        "total_complexity": 17.0,
-        "active_hours": 2.3867603108617996,
-        "median_eff_raw": 121.34375971428572,
-        "eff_dispersion": 369.0947731111111
-      }
-    }
-  },
-  "16": {
-    "waiter_1": {
-      "score": 50.0,
-      "confidence": 0.5821183113921002,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 6,
-        "total_complexity": 26.0,
-        "active_hours": 3.373380748099751,
-        "median_eff_raw": 202.98933125000002,
-        "eff_dispersion": 105.25780009374998
-      }
-    }
-  },
-  "17": {
-    "waiter_1": {
-      "score": 50.0,
-      "confidence": 0.5226796341329859,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 6,
-        "total_complexity": 22.0,
-        "active_hours": 6.889670551882849,
-        "median_eff_raw": 376.7164355,
-        "eff_dispersion": 386.79416481249996
-      }
-    }
-  },
-  "18": {
-    "waiter_1": {
-      "score": 50.0,
-      "confidence": 0.4051785813750624,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 2,
-        "total_complexity": 5.0,
-        "active_hours": 4.273264773620499,
-        "median_eff_raw": 320.17193875,
-        "eff_dispersion": 91.49907724999997
-      }
-    }
-  },
-  "19": {
-    "waiter_1": {
-      "score": 50.0,
-      "confidence": 0.6855305505178072,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 8,
-        "total_complexity": 35.0,
-        "active_hours": 5.691974926392238,
-        "median_eff_raw": 250.963866125,
-        "eff_dispersion": 57.22028044444443
-      }
-    }
-  },
-  "20": {
-    "waiter_2": {
-      "score": 50.0,
-      "confidence": 0.6987019162497562,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 8,
-        "total_complexity": 43.0,
-        "active_hours": 6.946239948338932,
-        "median_eff_raw": 283.5397153214286,
-        "eff_dispersion": 61.57980732500002
-      }
-    }
-  },
-  "21": {
-    "waiter_2": {
-      "score": 50.0,
-      "confidence": 0.6232573548555963,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 6,
-        "total_complexity": 32.0,
-        "active_hours": 6.282052419980367,
-        "median_eff_raw": 289.45399599999996,
-        "eff_dispersion": 101.26217431190474
-      }
-    }
-  },
-  "22": {
-    "waiter_2": {
-      "score": 50.0,
-      "confidence": 0.5199293870754917,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 4,
-        "total_complexity": 17.0,
-        "active_hours": 5.199939807520972,
-        "median_eff_raw": 254.01838429999998,
-        "eff_dispersion": 121.601543825
-      }
-    }
-  },
-  "23": {
-    "waiter_2": {
-      "score": 50.0,
-      "confidence": 0.3909985699538519,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 2,
-        "total_complexity": 9.0,
-        "active_hours": 0.7123412838909361,
-        "median_eff_raw": 500.49986712500004,
-        "eff_dispersion": 307.48220287500004
-      }
-    }
-  },
-  "24": {
-    "waiter_2": {
-      "score": 50.0,
-      "confidence": 0.5069781131360379,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 5,
-        "total_complexity": 22.0,
-        "active_hours": 6.180232066114743,
-        "median_eff_raw": 359.761624,
-        "eff_dispersion": 355.86081979999994
-      }
-    }
-  },
-  "25": {
-    "waiter_2": {
-      "score": 50.0,
-      "confidence": 0.5144292409711713,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 5,
-        "total_complexity": 20.0,
-        "active_hours": 5.396883581413163,
-        "median_eff_raw": 279.0078516666667,
-        "eff_dispersion": 226.23456450000003
-      }
-    }
-  },
-  "26": {
-    "waiter_2": {
-      "score": 50.0,
-      "confidence": 0.6366102642146974,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 8,
-        "total_complexity": 46.0,
-        "active_hours": 6.038698618080881,
-        "median_eff_raw": 228.52817240000002,
-        "eff_dispersion": 123.74006882638892
-      }
-    }
-  },
-  "27": {
-    "waiter_2": {
-      "score": 50.0,
-      "confidence": 0.7702509946380496,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 10,
-        "total_complexity": 58.0,
-        "active_hours": 6.014734638929367,
-        "median_eff_raw": 238.69208022499998,
-        "eff_dispersion": 25.1978701875
-      }
-    }
-  },
-  "28": {
-    "waiter_2": {
-      "score": 50.0,
-      "confidence": 0.5232775813619932,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 2,
-        "total_complexity": 11.0,
-        "active_hours": 5.028456602493922,
-        "median_eff_raw": 238.69444480357146,
-        "eff_dispersion": 22.817985053571448
-      }
-    }
-  },
-  "29": {
-    "waiter_2": {
-      "score": 50.0,
-      "confidence": 0.6578312903362977,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 7,
-        "total_complexity": 36.0,
-        "active_hours": 7.33401329199473,
-        "median_eff_raw": 211.706628,
-        "eff_dispersion": 61.53427239444443
-      }
-    }
-  },
-  "30": {
-    "waiter_2": {
-      "score": 50.0,
-      "confidence": 0.5461846841475535,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 6,
-        "total_complexity": 31.0,
-        "active_hours": 5.608485391669803,
-        "median_eff_raw": 236.12264291428573,
-        "eff_dispersion": 232.01416613214292
-      }
-    }
-  },
-  "31": {
-    "waiter_2": {
-      "score": 50.0,
-      "confidence": 0.5675232155399551,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 5,
-        "total_complexity": 27.0,
-        "active_hours": 5.773953574432267,
-        "median_eff_raw": 312.879819,
-        "eff_dispersion": 159.37850216666666
-      }
-    }
-  },
-  "32": {
-    "waiter_2": {
-      "score": 50.0,
-      "confidence": 0.6068668155451526,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 5,
-        "total_complexity": 20.0,
-        "active_hours": 7.558959888882107,
-        "median_eff_raw": 390.2105275,
-        "eff_dispersion": 87.83803489999997
-      }
-    }
-  },
-  "33": {
-    "waiter_2": {
-      "score": 50.0,
-      "confidence": 0.5393194561125456,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 4,
-        "total_complexity": 20.0,
-        "active_hours": 4.491763983302646,
-        "median_eff_raw": 314.67493037142856,
-        "eff_dispersion": 134.8548663011905
-      }
-    }
-  },
-  "34": {
-    "waiter_2": {
-      "score": 50.0,
-      "confidence": 0.7438063423790043,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 10,
-        "total_complexity": 66.0,
-        "active_hours": 7.941945681439505,
-        "median_eff_raw": 259.1719106904762,
-        "eff_dispersion": 49.88490766666666
-      }
-    }
-  },
-  "35": {
-    "waiter_2": {
-      "score": 50.0,
-      "confidence": 0.3720886065027503,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 2,
-        "total_complexity": 6.0,
-        "active_hours": 2.482778810792499,
-        "median_eff_raw": 339.4604052,
-        "eff_dispersion": 180.70370880000004
-      }
-    }
-  },
-  "36": {
-    "waiter_2": {
-      "score": 50.0,
-      "confidence": 0.6166205128610065,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 8,
-        "total_complexity": 35.0,
-        "active_hours": 6.691807552509838,
-        "median_eff_raw": 286.9272259666667,
-        "eff_dispersion": 170.38483595000002
-      }
-    }
-  },
-  "37": {
-    "waiter_2": {
-      "score": 50.0,
-      "confidence": 0.6535929188516488,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 7,
-        "total_complexity": 39.0,
-        "active_hours": 4.972940735816955,
-        "median_eff_raw": 267.340906,
-        "eff_dispersion": 87.29183192678568
-      }
-    }
-  },
-  "38": {
-    "waiter_2": {
-      "score": 50.0,
-      "confidence": 0.607869790786827,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 7,
-        "total_complexity": 48.0,
-        "active_hours": 7.731399983300103,
-        "median_eff_raw": 202.37626985714286,
-        "eff_dispersion": 139.23874150892857
-      }
-    }
-  },
-  "39": {
-    "waiter_2": {
-      "score": 50.0,
-      "confidence": 0.6135553936802457,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 8,
-        "total_complexity": 29.0,
-        "active_hours": 6.806063438322809,
-        "median_eff_raw": 342.72671391666665,
-        "eff_dispersion": 184.8406336041666
-      }
-    }
-  },
-  "40": {
-    "waiter_3": {
-      "score": 50.0,
-      "confidence": 0.5911595833243233,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 5,
         "total_complexity": 19.0,
-        "active_hours": 7.720396236115032,
-        "median_eff_raw": 598.3517054,
-        "eff_dispersion": 162.0221494666667
+        "active_hours": 5.9470221619473564,
+        "median_eff_raw": 251.400103775,
+        "eff_dispersion": 62.48642087083334
       }
-    }
-  },
-  "41": {
-    "waiter_3": {
-      "score": 50.0,
-      "confidence": 0.6416305546673386,
+    },
+    "waiter_2": {
+      "score": 59.70258033486941,
+      "confidence": 0.6827523571940393,
       "components": {
-        "efficiency": 0.0,
+        "efficiency": 50.0,
         "throughput": 100.0,
-        "consistency": 100.0
+        "consistency": 25.0
       },
       "metrics": {
-        "n_orders": 7,
-        "total_complexity": 45.0,
-        "active_hours": 7.354011940558752,
-        "median_eff_raw": 267.58160875,
-        "eff_dispersion": 112.68783621666662
+        "n_orders": 14,
+        "total_complexity": 65.0,
+        "active_hours": 5.928082773288091,
+        "median_eff_raw": 308.75339201714286,
+        "eff_dispersion": 207.39983440999998
       }
-    }
-  },
-  "42": {
+    },
     "waiter_3": {
-      "score": 50.0,
-      "confidence": 0.6288368724163887,
+      "score": 22.438667661855916,
+      "confidence": 0.4922118841554119,
       "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 6,
-        "total_complexity": 25.0,
-        "active_hours": 5.33207452694575,
-        "median_eff_raw": 441.37112179999997,
-        "eff_dispersion": 116.46314235
-      }
-    }
-  },
-  "43": {
-    "waiter_3": {
-      "score": 50.0,
-      "confidence": 0.6111757482221989,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 7,
-        "total_complexity": 39.0,
-        "active_hours": 6.827438229984708,
-        "median_eff_raw": 324.6491620909091,
-        "eff_dispersion": 187.8476939791666
-      }
-    }
-  },
-  "44": {
-    "waiter_3": {
-      "score": 50.0,
-      "confidence": 0.5802424046197011,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 6,
-        "total_complexity": 19.0,
-        "active_hours": 6.110766968329748,
-        "median_eff_raw": 479.9516963333333,
-        "eff_dispersion": 195.00239720833332
-      }
-    }
-  },
-  "45": {
-    "waiter_3": {
-      "score": 50.0,
-      "confidence": 0.5939427172706752,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 6,
-        "total_complexity": 33.0,
-        "active_hours": 4.839005736642414,
-        "median_eff_raw": 479.68749106666667,
-        "eff_dispersion": 254.58313563541662
-      }
-    }
-  },
-  "46": {
-    "waiter_3": {
-      "score": 50.0,
-      "confidence": 0.5051587252201797,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
+        "efficiency": 12.5,
+        "throughput": 25.0,
+        "consistency": 12.5
       },
       "metrics": {
         "n_orders": 4,
         "total_complexity": 18.0,
-        "active_hours": 4.588213701049487,
-        "median_eff_raw": 376.61355545000004,
-        "eff_dispersion": 231.63401695
+        "active_hours": 6.100215895043479,
+        "median_eff_raw": 677.7159939666667,
+        "eff_dispersion": 497.29875706388884
       }
-    }
-  },
-  "47": {
-    "waiter_3": {
-      "score": 50.0,
-      "confidence": 0.5285344715955997,
+    },
+    "waiter_4": {
+      "score": 66.3633458394855,
+      "confidence": 0.6434026163091753,
       "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 3,
-        "total_complexity": 21.0,
-        "active_hours": 7.003168353041013,
-        "median_eff_raw": 163.84453299999998,
-        "eff_dispersion": 58.26863616964286
-      }
-    }
-  },
-  "48": {
-    "waiter_3": {
-      "score": 50.0,
-      "confidence": 0.5616659612200775,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 6,
-        "total_complexity": 33.0,
-        "active_hours": 7.063911306659381,
-        "median_eff_raw": 420.64468601666664,
-        "eff_dispersion": 346.81514034166673
-      }
-    }
-  },
-  "49": {
-    "waiter_3": {
-      "score": 50.0,
-      "confidence": 0.600491319658083,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
+        "efficiency": 75.0,
+        "throughput": 75.0,
+        "consistency": 37.5
       },
       "metrics": {
         "n_orders": 8,
-        "total_complexity": 30.0,
-        "active_hours": 5.179981631636619,
-        "median_eff_raw": 751.6908799,
-        "eff_dispersion": 495.93308653124996
-      }
-    }
-  },
-  "50": {
-    "waiter_3": {
-      "score": 50.0,
-      "confidence": 0.6371264414165446,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 7,
-        "total_complexity": 32.0,
-        "active_hours": 6.856097914444076,
-        "median_eff_raw": 375.2309495,
-        "eff_dispersion": 133.6041519777778
-      }
-    }
-  },
-  "51": {
-    "waiter_3": {
-      "score": 50.0,
-      "confidence": 0.6520694194151216,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 9,
-        "total_complexity": 45.0,
-        "active_hours": 6.338805592457454,
-        "median_eff_raw": 356.5800753333333,
-        "eff_dispersion": 179.54959355
-      }
-    }
-  },
-  "52": {
-    "waiter_3": {
-      "score": 50.0,
-      "confidence": 0.5870696965277874,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 4,
-        "total_complexity": 22.0,
-        "active_hours": 4.046124622225761,
-        "median_eff_raw": 359.74246568750004,
-        "eff_dispersion": 85.8934438979166
-      }
-    }
-  },
-  "53": {
-    "waiter_3": {
-      "score": 50.0,
-      "confidence": 0.6572078893848271,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 6,
         "total_complexity": 41.0,
-        "active_hours": 7.405980190237363,
-        "median_eff_raw": 291.46389135416666,
-        "eff_dispersion": 75.24188302083331
+        "active_hours": 7.327221631672647,
+        "median_eff_raw": 221.797898275,
+        "eff_dispersion": 102.26946643333332
       }
-    }
-  },
-  "54": {
-    "waiter_3": {
-      "score": 50.0,
-      "confidence": 0.5644440733444747,
+    },
+    "waiter_5": {
+      "score": 54.02881348329058,
+      "confidence": 0.7025989511567212,
       "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
+        "efficiency": 25.0,
+        "throughput": 87.5,
+        "consistency": 75.0
       },
       "metrics": {
-        "n_orders": 3,
-        "total_complexity": 12.0,
-        "active_hours": 5.013419455024931,
-        "median_eff_raw": 450.0221364,
-        "eff_dispersion": 44.132653749999974
+        "n_orders": 10,
+        "total_complexity": 45.0,
+        "active_hours": 7.702154815528128,
+        "median_eff_raw": 375.87826165,
+        "eff_dispersion": 108.06259403666667
       }
-    }
-  },
-  "55": {
-    "waiter_3": {
-      "score": 50.0,
-      "confidence": 0.5968559354703558,
+    },
+    "waiter_6": {
+      "score": 21.79801052551307,
+      "confidence": 0.5447786235476455,
       "components": {
         "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 3,
-        "total_complexity": 19.0,
-        "active_hours": 4.626406617826886,
-        "median_eff_raw": 248.90521216666664,
-        "eff_dispersion": 24.709014694444477
-      }
-    }
-  },
-  "56": {
-    "waiter_3": {
-      "score": 50.0,
-      "confidence": 0.5906995313632144,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 6,
-        "total_complexity": 20.0,
-        "active_hours": 7.384810055295627,
-        "median_eff_raw": 580.4769596666667,
-        "eff_dispersion": 214.47226788095236
-      }
-    }
-  },
-  "57": {
-    "waiter_3": {
-      "score": 50.0,
-      "confidence": 0.5329923016570424,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 6,
-        "total_complexity": 18.0,
-        "active_hours": 5.280098420249091,
-        "median_eff_raw": 622.3475705000001,
-        "eff_dispersion": 454.30041325
-      }
-    }
-  },
-  "58": {
-    "waiter_3": {
-      "score": 50.0,
-      "confidence": 0.6350225755632652,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 7,
-        "total_complexity": 43.0,
-        "active_hours": 7.549379157821337,
-        "median_eff_raw": 402.433978125,
-        "eff_dispersion": 180.13335971230163
-      }
-    }
-  },
-  "59": {
-    "waiter_3": {
-      "score": 50.0,
-      "confidence": 0.5306188803895935,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 3,
-        "total_complexity": 10.0,
-        "active_hours": 4.800500726368692,
-        "median_eff_raw": 451.766679,
-        "eff_dispersion": 67.95644400000003
-      }
-    }
-  },
-  "60": {
-    "waiter_4": {
-      "score": 50.0,
-      "confidence": 0.5802522418430061,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 9,
-        "total_complexity": 33.0,
-        "active_hours": 7.521238082183732,
-        "median_eff_raw": 216.554907,
-        "eff_dispersion": 241.46787433333333
-      }
-    }
-  },
-  "61": {
-    "waiter_4": {
-      "score": 50.0,
-      "confidence": 0.6160294539979684,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 7,
-        "total_complexity": 27.0,
-        "active_hours": 7.919468348357412,
-        "median_eff_raw": 269.83917825,
-        "eff_dispersion": 112.22028366666666
-      }
-    }
-  },
-  "62": {
-    "waiter_4": {
-      "score": 50.0,
-      "confidence": 0.5219573739319601,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
+        "throughput": 12.5,
+        "consistency": 62.5
       },
       "metrics": {
         "n_orders": 5,
-        "total_complexity": 23.0,
-        "active_hours": 5.139688499967257,
-        "median_eff_raw": 173.3622358,
-        "eff_dispersion": 143.71801349999998
+        "total_complexity": 14.0,
+        "active_hours": 5.821099800533719,
+        "median_eff_raw": 939.251072,
+        "eff_dispersion": 360.2060289
       }
-    }
-  },
-  "63": {
-    "waiter_4": {
-      "score": 50.0,
-      "confidence": 0.6297295760143616,
+    },
+    "waiter_7": {
+      "score": 79.73031994940914,
+      "confidence": 0.6397164161833027,
       "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 11,
-        "total_complexity": 55.0,
-        "active_hours": 7.805735055804252,
-        "median_eff_raw": 184.0916395,
-        "eff_dispersion": 181.67354296666667
-      }
-    }
-  },
-  "64": {
-    "waiter_4": {
-      "score": 50.0,
-      "confidence": 0.5487817564797978,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 6,
-        "total_complexity": 22.0,
-        "active_hours": 7.097236065003607,
-        "median_eff_raw": 232.9938221666667,
-        "eff_dispersion": 164.55729683333334
-      }
-    }
-  },
-  "65": {
-    "waiter_4": {
-      "score": 50.0,
-      "confidence": 0.5855669440441988,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 5,
-        "total_complexity": 24.0,
-        "active_hours": 5.67077640109592,
-        "median_eff_raw": 231.96061699999998,
-        "eff_dispersion": 84.2132734761905
-      }
-    }
-  },
-  "66": {
-    "waiter_4": {
-      "score": 50.0,
-      "confidence": 0.6339205271049351,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 5,
-        "total_complexity": 25.0,
-        "active_hours": 6.390050393342972,
-        "median_eff_raw": 183.19005575,
-        "eff_dispersion": 33.51495833333334
-      }
-    }
-  },
-  "67": {
-    "waiter_4": {
-      "score": 50.0,
-      "confidence": 0.6234858905945642,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 4,
-        "total_complexity": 24.0,
-        "active_hours": 5.851808258559969,
-        "median_eff_raw": 153.41962549206346,
-        "eff_dispersion": 21.65989195476189
-      }
-    }
-  },
-  "68": {
-    "waiter_4": {
-      "score": 50.0,
-      "confidence": 0.5474862109691232,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 6,
-        "total_complexity": 25.0,
-        "active_hours": 5.549093277785513,
-        "median_eff_raw": 189.83106891666665,
-        "eff_dispersion": 152.6499983833333
-      }
-    }
-  },
-  "69": {
-    "waiter_4": {
-      "score": 50.0,
-      "confidence": 0.6261497136912256,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
+        "efficiency": 87.5,
+        "throughput": 62.5,
         "consistency": 100.0
       },
       "metrics": {
         "n_orders": 5,
         "total_complexity": 34.0,
-        "active_hours": 7.042045086092419,
-        "median_eff_raw": 199.9632145,
-        "eff_dispersion": 54.365358158730174
+        "active_hours": 6.366545824143621,
+        "median_eff_raw": 196.24013146666667,
+        "eff_dispersion": 43.46853340000001
+      }
+    },
+    "waiter_8": {
+      "score": 45.232126828894536,
+      "confidence": 0.6235868371061482,
+      "components": {
+        "efficiency": 37.5,
+        "throughput": 50.0,
+        "consistency": 50.0
+      },
+      "metrics": {
+        "n_orders": 7,
+        "total_complexity": 33.0,
+        "active_hours": 7.030577986439069,
+        "median_eff_raw": 354.9872324571429,
+        "eff_dispersion": 155.26335335333334
       }
     }
   },
-  "70": {
-    "waiter_4": {
-      "score": 50.0,
-      "confidence": 0.4696855492094869,
+  "shift_10": {
+    "waiter_2": {
+      "score": 64.2924567824152,
+      "confidence": 0.6674532912817746,
       "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
+        "efficiency": 42.857142857142854,
+        "throughput": 85.71428571428572,
         "consistency": 100.0
       },
       "metrics": {
-        "n_orders": 5,
-        "total_complexity": 21.0,
-        "active_hours": 6.527242466145092,
-        "median_eff_raw": 204.94197966666664,
-        "eff_dispersion": 360.0841720000001
+        "n_orders": 7,
+        "total_complexity": 32.0,
+        "active_hours": 6.566644146111276,
+        "median_eff_raw": 330.59127527777775,
+        "eff_dispersion": 75.95489083333331
       }
-    }
-  },
-  "71": {
-    "waiter_4": {
-      "score": 50.0,
-      "confidence": 0.6791654747479912,
+    },
+    "waiter_3": {
+      "score": 33.51436829760843,
+      "confidence": 0.6166184930617502,
       "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
+        "efficiency": 14.285714285714278,
+        "throughput": 57.142857142857146,
+        "consistency": 42.85714285714286
       },
       "metrics": {
-        "n_orders": 6,
-        "total_complexity": 36.0,
-        "active_hours": 5.69711067252689,
-        "median_eff_raw": 156.20196741666666,
-        "eff_dispersion": 25.48074312261906
+        "n_orders": 7,
+        "total_complexity": 32.0,
+        "active_hours": 7.200367235806254,
+        "median_eff_raw": 341.5024992,
+        "eff_dispersion": 160.34654352777773
       }
-    }
-  },
-  "72": {
+    },
     "waiter_4": {
-      "score": 50.0,
-      "confidence": 0.5584799960980958,
+      "score": 62.27959364093081,
+      "confidence": 0.5781957102897485,
       "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 5,
-        "total_complexity": 27.0,
-        "active_hours": 4.775292787220743,
-        "median_eff_raw": 318.2665566,
-        "eff_dispersion": 182.93905687500003
-      }
-    }
-  },
-  "73": {
-    "waiter_4": {
-      "score": 50.0,
-      "confidence": 0.6142449415602805,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
+        "efficiency": 71.42857142857143,
+        "throughput": 42.85714285714286,
+        "consistency": 85.71428571428572
       },
       "metrics": {
         "n_orders": 4,
-        "total_complexity": 25.0,
-        "active_hours": 6.356295139458444,
-        "median_eff_raw": 170.98512471428572,
-        "eff_dispersion": 29.94357690714284
+        "total_complexity": 20.0,
+        "active_hours": 5.541284676657782,
+        "median_eff_raw": 264.70231553968256,
+        "eff_dispersion": 65.76159034151783
       }
-    }
-  },
-  "74": {
-    "waiter_4": {
-      "score": 50.0,
-      "confidence": 0.6858816489418962,
+    },
+    "waiter_5": {
+      "score": 38.57142857142857,
+      "confidence": 0.4945208304333686,
+      "components": {
+        "efficiency": 57.14285714285714,
+        "throughput": 14.285714285714286,
+        "consistency": 28.571428571428573
+      },
+      "metrics": {
+        "n_orders": 4,
+        "total_complexity": 14.0,
+        "active_hours": 6.657671178314421,
+        "median_eff_raw": 275.9006154305555,
+        "eff_dispersion": 154.02232599305552
+      }
+    },
+    "waiter_6": {
+      "score": 79.12974717782414,
+      "confidence": 0.6240440650496772,
+      "components": {
+        "efficiency": 85.71428571428571,
+        "throughput": 100.0,
+        "consistency": 57.142857142857146
+      },
+      "metrics": {
+        "n_orders": 6,
+        "total_complexity": 40.0,
+        "active_hours": 7.257789169417487,
+        "median_eff_raw": 255.66164867592593,
+        "eff_dispersion": 103.38060618733465
+      }
+    },
+    "waiter_7": {
+      "score": 37.34388886333257,
+      "confidence": 0.530925985557322,
+      "components": {
+        "efficiency": 28.57142857142857,
+        "throughput": 28.571428571428573,
+        "consistency": 71.42857142857143
+      },
+      "metrics": {
+        "n_orders": 4,
+        "total_complexity": 15.0,
+        "active_hours": 4.532022784153621,
+        "median_eff_raw": 335.98574623611114,
+        "eff_dispersion": 123.07489272916666
+      }
+    },
+    "waiter_8": {
+      "score": 25.983196877888737,
+      "confidence": 0.6039207284926272,
       "components": {
         "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
+        "throughput": 71.42857142857143,
+        "consistency": 14.285714285714286
       },
       "metrics": {
         "n_orders": 8,
-        "total_complexity": 40.0,
-        "active_hours": 7.2280346933338375,
-        "median_eff_raw": 178.931464125,
-        "eff_dispersion": 44.91575761607143
+        "total_complexity": 33.0,
+        "active_hours": 7.253122827212016,
+        "median_eff_raw": 403.40835733333336,
+        "eff_dispersion": 272.7661575833334
       }
     }
   },
-  "75": {
-    "waiter_4": {
-      "score": 50.0,
-      "confidence": 0.5342623291091158,
+  "shift_2": {
+    "waiter_1": {
+      "score": 68.61030958526875,
+      "confidence": 0.42374956818796317,
       "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
+        "efficiency": 75.0,
+        "throughput": 75.0,
+        "consistency": 62.5
       },
       "metrics": {
-        "n_orders": 4,
-        "total_complexity": 12.0,
-        "active_hours": 5.437995273272197,
-        "median_eff_raw": 226.65194208333332,
-        "eff_dispersion": 62.96705909999997
+        "n_orders": 2,
+        "total_complexity": 9.0,
+        "active_hours": 2.059055251148012,
+        "median_eff_raw": 250.0032675375,
+        "eff_dispersion": 99.0710596625
       }
-    }
-  },
-  "76": {
-    "waiter_4": {
-      "score": 50.0,
-      "confidence": 0.5587451758349599,
+    },
+    "waiter_2": {
+      "score": 38.8796978662962,
+      "confidence": 0.6320805689876817,
       "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 4,
-        "total_complexity": 25.0,
-        "active_hours": 3.9059167149994107,
-        "median_eff_raw": 182.89253666666667,
-        "eff_dispersion": 73.14218521428569
-      }
-    }
-  },
-  "77": {
-    "waiter_4": {
-      "score": 50.0,
-      "confidence": 0.5912999159474551,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 4,
-        "total_complexity": 23.0,
-        "active_hours": 4.140523690051503,
-        "median_eff_raw": 137.38155016666667,
-        "eff_dispersion": 32.111987124999985
-      }
-    }
-  },
-  "78": {
-    "waiter_4": {
-      "score": 50.0,
-      "confidence": 0.4641666666666666,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 1,
-        "total_complexity": 6.0,
-        "active_hours": 0.26859432975451153,
-        "median_eff_raw": 161.15659783333334,
-        "eff_dispersion": 0.0
-      }
-    }
-  },
-  "79": {
-    "waiter_4": {
-      "score": 50.0,
-      "confidence": 0.6283286425225035,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 5,
-        "total_complexity": 25.0,
-        "active_hours": 6.008909092545509,
-        "median_eff_raw": 202.04812833333335,
-        "eff_dispersion": 40.570052222222245
-      }
-    }
-  },
-  "80": {
-    "waiter_5": {
-      "score": 50.0,
-      "confidence": 0.556147551827448,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 4,
-        "total_complexity": 20.0,
-        "active_hours": 3.0108543935749266,
-        "median_eff_raw": 273.0668058555556,
-        "eff_dispersion": 93.1020336666667
-      }
-    }
-  },
-  "81": {
-    "waiter_5": {
-      "score": 50.0,
-      "confidence": 0.6200477595638317,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 6,
-        "total_complexity": 27.0,
-        "active_hours": 5.602126743329896,
-        "median_eff_raw": 343.961602275,
-        "eff_dispersion": 110.03658130000002
-      }
-    }
-  },
-  "82": {
-    "waiter_5": {
-      "score": 50.0,
-      "confidence": 0.5612481673138638,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 5,
-        "total_complexity": 22.0,
-        "active_hours": 7.294608941144413,
-        "median_eff_raw": 357.7400852,
-        "eff_dispersion": 167.33413376190472
-      }
-    }
-  },
-  "83": {
-    "waiter_5": {
-      "score": 50.0,
-      "confidence": 0.6339715240498861,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
+        "efficiency": 25.0,
+        "throughput": 50.0,
+        "consistency": 50.0
       },
       "metrics": {
         "n_orders": 9,
-        "total_complexity": 42.0,
-        "active_hours": 7.583128829201063,
-        "median_eff_raw": 346.04084120000005,
-        "eff_dispersion": 212.83856099999997
+        "total_complexity": 30.0,
+        "active_hours": 7.998881914416949,
+        "median_eff_raw": 391.87955600000004,
+        "eff_dispersion": 196.10257579999995
       }
-    }
-  },
-  "84": {
-    "waiter_5": {
-      "score": 50.0,
-      "confidence": 0.644069762217151,
+    },
+    "waiter_3": {
+      "score": 70.25291237043749,
+      "confidence": 0.6670981289537021,
       "components": {
-        "efficiency": 0.0,
+        "efficiency": 50.0,
         "throughput": 100.0,
-        "consistency": 100.0
+        "consistency": 87.5
+      },
+      "metrics": {
+        "n_orders": 7,
+        "total_complexity": 37.0,
+        "active_hours": 5.998849571148554,
+        "median_eff_raw": 353.95252066666666,
+        "eff_dispersion": 91.7197605
+      }
+    },
+    "waiter_4": {
+      "score": 34.98433500402413,
+      "confidence": 0.5267933325668311,
+      "components": {
+        "efficiency": 37.5,
+        "throughput": 37.5,
+        "consistency": 12.5
       },
       "metrics": {
         "n_orders": 6,
-        "total_complexity": 20.0,
-        "active_hours": 6.6321921819448475,
-        "median_eff_raw": 332.4383144166667,
-        "eff_dispersion": 54.5351969583333
+        "total_complexity": 21.0,
+        "active_hours": 5.761952123045921,
+        "median_eff_raw": 364.29895172,
+        "eff_dispersion": 336.372854415
       }
-    }
-  },
-  "85": {
+    },
     "waiter_5": {
-      "score": 50.0,
-      "confidence": 0.5035518707944404,
+      "score": 60.577159013766654,
+      "confidence": 0.48724240367110644,
       "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
+        "efficiency": 62.5,
+        "throughput": 87.5,
+        "consistency": 25.0
+      },
+      "metrics": {
+        "n_orders": 4,
+        "total_complexity": 18.0,
+        "active_hours": 3.2602491113874645,
+        "median_eff_raw": 314.43718079999996,
+        "eff_dispersion": 247.26297444999997
+      }
+    },
+    "waiter_6": {
+      "score": 35.94935517199415,
+      "confidence": 0.5488502211294053,
+      "components": {
+        "efficiency": 12.5,
+        "throughput": 25.0,
         "consistency": 100.0
       },
       "metrics": {
         "n_orders": 3,
         "total_complexity": 17.0,
-        "active_hours": 1.7542211969031227,
-        "median_eff_raw": 281.37187466666666,
-        "eff_dispersion": 115.63021083333336
+        "active_hours": 5.046949854956733,
+        "median_eff_raw": 457.5957988,
+        "eff_dispersion": 98.11643826666659
       }
-    }
-  },
-  "86": {
-    "waiter_5": {
-      "score": 50.0,
-      "confidence": 0.6593262069691381,
+    },
+    "waiter_7": {
+      "score": 74.5523548940038,
+      "confidence": 0.6427096841216715,
       "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
+        "efficiency": 87.5,
+        "throughput": 62.5,
+        "consistency": 75.0
       },
       "metrics": {
-        "n_orders": 9,
-        "total_complexity": 59.0,
-        "active_hours": 7.468347546392017,
-        "median_eff_raw": 225.81417666666667,
-        "eff_dispersion": 119.63274433333336
+        "n_orders": 6,
+        "total_complexity": 32.0,
+        "active_hours": 7.373020646638341,
+        "median_eff_raw": 166.64869879999998,
+        "eff_dispersion": 44.24127287666667
       }
-    }
-  },
-  "87": {
-    "waiter_5": {
-      "score": 50.0,
-      "confidence": 0.5059850570996423,
+    },
+    "waiter_8": {
+      "score": 18.093495993792136,
+      "confidence": 0.41131217257702085,
       "components": {
         "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 5,
-        "total_complexity": 28.0,
-        "active_hours": 3.244650824666023,
-        "median_eff_raw": 197.9824431111111,
-        "eff_dispersion": 250.66753824242423
-      }
-    }
-  },
-  "88": {
-    "waiter_5": {
-      "score": 50.0,
-      "confidence": 0.4821053474623993,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
+        "throughput": 12.5,
+        "consistency": 37.5
       },
       "metrics": {
         "n_orders": 3,
-        "total_complexity": 12.0,
-        "active_hours": 5.101364430785179,
-        "median_eff_raw": 267.53744,
-        "eff_dispersion": 104.43902100000003
+        "total_complexity": 7.0,
+        "active_hours": 5.617293929192755,
+        "median_eff_raw": 938.5345424,
+        "eff_dispersion": 552.4874143000001
       }
     }
   },
-  "89": {
-    "waiter_5": {
-      "score": 50.0,
-      "confidence": 0.5239397822786355,
+  "shift_3": {
+    "waiter_1": {
+      "score": 73.21659545840751,
+      "confidence": 0.5955460611210004,
       "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
+        "efficiency": 87.5,
+        "throughput": 50.0,
+        "consistency": 87.5
       },
       "metrics": {
-        "n_orders": 5,
-        "total_complexity": 24.0,
-        "active_hours": 7.33811776638031,
-        "median_eff_raw": 278.222582,
-        "eff_dispersion": 232.9266762083333
+        "n_orders": 3,
+        "total_complexity": 27.0,
+        "active_hours": 4.825644816358884,
+        "median_eff_raw": 152.82734046296295,
+        "eff_dispersion": 24.73970832407406
       }
-    }
-  },
-  "90": {
-    "waiter_5": {
-      "score": 50.0,
-      "confidence": 0.6635886451130526,
+    },
+    "waiter_2": {
+      "score": 23.504460905671024,
+      "confidence": 0.5123629840337411,
       "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 9,
-        "total_complexity": 51.0,
-        "active_hours": 7.342883443302578,
-        "median_eff_raw": 300.7679232,
-        "eff_dispersion": 139.51075375000005
-      }
-    }
-  },
-  "91": {
-    "waiter_5": {
-      "score": 50.0,
-      "confidence": 0.5408600193059405,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
+        "efficiency": 25.0,
+        "throughput": 12.5,
+        "consistency": 12.5
       },
       "metrics": {
         "n_orders": 4,
-        "total_complexity": 25.0,
-        "active_hours": 6.137873014741474,
-        "median_eff_raw": 266.5303146,
-        "eff_dispersion": 135.4208665375
+        "total_complexity": 17.0,
+        "active_hours": 4.549684290289878,
+        "median_eff_raw": 297.64442401111114,
+        "eff_dispersion": 157.61424764999998
       }
-    }
-  },
-  "92": {
-    "waiter_5": {
-      "score": 50.0,
-      "confidence": 0.41412229087707597,
+    },
+    "waiter_3": {
+      "score": 71.330625,
+      "confidence": 0.485,
       "components": {
-        "efficiency": 0.0,
+        "efficiency": 50.0,
         "throughput": 100.0,
         "consistency": 100.0
       },
       "metrics": {
-        "n_orders": 3,
-        "total_complexity": 13.0,
-        "active_hours": 7.484700057506561,
-        "median_eff_raw": 265.21750725,
-        "eff_dispersion": 288.11731925000004
+        "n_orders": 1,
+        "total_complexity": 8.0,
+        "active_hours": 0.6328459483385086,
+        "median_eff_raw": 237.317230625,
+        "eff_dispersion": 0.0
       }
-    }
-  },
-  "93": {
-    "waiter_5": {
-      "score": 50.0,
-      "confidence": 0.6597283602243116,
+    },
+    "waiter_4": {
+      "score": 52.32118029311582,
+      "confidence": 0.5231474483088463,
       "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
+        "efficiency": 75.0,
+        "throughput": 25.0,
+        "consistency": 37.5
       },
       "metrics": {
-        "n_orders": 7,
-        "total_complexity": 41.0,
-        "active_hours": 5.9352097353008055,
-        "median_eff_raw": 280.25672728571425,
-        "eff_dispersion": 86.83868539047614
+        "n_orders": 4,
+        "total_complexity": 19.0,
+        "active_hours": 4.886025771366225,
+        "median_eff_raw": 194.45415941666667,
+        "eff_dispersion": 98.77162001190473
       }
-    }
-  },
-  "94": {
+    },
     "waiter_5": {
-      "score": 50.0,
-      "confidence": 0.49477132339903784,
+      "score": 30.356876593248717,
+      "confidence": 0.5990348641054429,
       "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
+        "efficiency": 12.5,
+        "throughput": 37.5,
+        "consistency": 50.0
       },
       "metrics": {
-        "n_orders": 3,
-        "total_complexity": 16.0,
-        "active_hours": 2.9482267749971816,
-        "median_eff_raw": 290.24855228571425,
-        "eff_dispersion": 126.71879907142858
+        "n_orders": 6,
+        "total_complexity": 30.0,
+        "active_hours": 6.575600792765617,
+        "median_eff_raw": 349.544857825,
+        "eff_dispersion": 161.645306365625
       }
-    }
-  },
-  "95": {
-    "waiter_5": {
-      "score": 50.0,
-      "confidence": 0.6752878066356821,
+    },
+    "waiter_6": {
+      "score": 30.374223008550928,
+      "confidence": 0.5966002795016241,
       "components": {
         "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 8,
-        "total_complexity": 39.0,
-        "active_hours": 5.3557009894318055,
-        "median_eff_raw": 316.9919921142857,
-        "eff_dispersion": 91.28959950000001
-      }
-    }
-  },
-  "96": {
-    "waiter_5": {
-      "score": 50.0,
-      "confidence": 0.5990440074788483,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 8,
-        "total_complexity": 31.0,
-        "active_hours": 7.465240371955765,
-        "median_eff_raw": 285.0448376785714,
-        "eff_dispersion": 196.65275841250002
-      }
-    }
-  },
-  "97": {
-    "waiter_5": {
-      "score": 50.0,
-      "confidence": 0.6001729968902586,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
+        "throughput": 75.0,
+        "consistency": 25.0
       },
       "metrics": {
         "n_orders": 6,
         "total_complexity": 33.0,
-        "active_hours": 7.8077327819003,
-        "median_eff_raw": 272.93701635714285,
-        "eff_dispersion": 133.30563957142857
+        "active_hours": 3.9163422771957186,
+        "median_eff_raw": 400.292757875,
+        "eff_dispersion": 205.0467768791666
       }
-    }
-  },
-  "98": {
-    "waiter_5": {
-      "score": 50.0,
-      "confidence": 0.7077070438452563,
+    },
+    "waiter_7": {
+      "score": 70.92842848727545,
+      "confidence": 0.7534789783961509,
       "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
+        "efficiency": 62.5,
+        "throughput": 87.5,
+        "consistency": 75.0
       },
       "metrics": {
-        "n_orders": 9,
-        "total_complexity": 49.0,
-        "active_hours": 6.572687896092733,
-        "median_eff_raw": 255.1611025,
-        "eff_dispersion": 62.449005142857175
+        "n_orders": 12,
+        "total_complexity": 58.0,
+        "active_hours": 6.023596057494482,
+        "median_eff_raw": 206.1684098095238,
+        "eff_dispersion": 40.59137664583332
       }
-    }
-  },
-  "99": {
-    "waiter_5": {
-      "score": 50.0,
-      "confidence": 0.5239075980051324,
+    },
+    "waiter_8": {
+      "score": 50.114443114432866,
+      "confidence": 0.6948183615123523,
       "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 6,
-        "total_complexity": 23.0,
-        "active_hours": 4.416657514439689,
-        "median_eff_raw": 322.54485924999994,
-        "eff_dispersion": 339.3928956607143
-      }
-    }
-  },
-  "100": {
-    "waiter_6": {
-      "score": 50.0,
-      "confidence": 0.5691247531033824,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 4,
-        "total_complexity": 20.0,
-        "active_hours": 5.636094399756855,
-        "median_eff_raw": 417.54572344285714,
-        "eff_dispersion": 118.54800898571432
-      }
-    }
-  },
-  "101": {
-    "waiter_6": {
-      "score": 50.0,
-      "confidence": 0.6666672842529947,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 7,
-        "total_complexity": 44.0,
-        "active_hours": 6.0919607249895735,
-        "median_eff_raw": 321.1969146,
-        "eff_dispersion": 94.46884709722224
-      }
-    }
-  },
-  "102": {
-    "waiter_6": {
-      "score": 50.0,
-      "confidence": 0.4092504734449438,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 2,
-        "total_complexity": 8.0,
-        "active_hours": 3.323647829492887,
-        "median_eff_raw": 719.6904433333333,
-        "eff_dispersion": 308.05439016666674
-      }
-    }
-  },
-  "103": {
-    "waiter_6": {
-      "score": 50.0,
-      "confidence": 0.5555861783708619,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 3,
-        "total_complexity": 23.0,
-        "active_hours": 4.5631982627842165,
-        "median_eff_raw": 243.96574775,
-        "eff_dispersion": 64.25500527777777
-      }
-    }
-  },
-  "104": {
-    "waiter_6": {
-      "score": 50.0,
-      "confidence": 0.6464162263053197,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
+        "efficiency": 37.5,
+        "throughput": 62.5,
+        "consistency": 62.5
       },
       "metrics": {
         "n_orders": 8,
-        "total_complexity": 32.0,
-        "active_hours": 5.2553620547056195,
-        "median_eff_raw": 445.43091825,
-        "eff_dispersion": 166.440971
+        "total_complexity": 45.0,
+        "active_hours": 5.420713799728287,
+        "median_eff_raw": 270.8139316833333,
+        "eff_dispersion": 64.4950853229168
       }
     }
   },
-  "105": {
-    "waiter_6": {
-      "score": 50.0,
-      "confidence": 0.6165056501602028,
+  "shift_4": {
+    "waiter_1": {
+      "score": 55.1833805843867,
+      "confidence": 0.510985108302126,
       "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 6,
-        "total_complexity": 31.0,
-        "active_hours": 8.142364390558667,
-        "median_eff_raw": 326.12240199999997,
-        "eff_dispersion": 122.18609379999998
-      }
-    }
-  },
-  "106": {
-    "waiter_6": {
-      "score": 50.0,
-      "confidence": 0.6653556027556253,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
+        "efficiency": 75.0,
+        "throughput": 50.0,
+        "consistency": 12.5
       },
       "metrics": {
         "n_orders": 5,
         "total_complexity": 29.0,
-        "active_hours": 5.70372415251202,
-        "median_eff_raw": 362.33221725,
-        "eff_dispersion": 43.16164769444447
+        "active_hours": 6.227857078578737,
+        "median_eff_raw": 165.15127272727273,
+        "eff_dispersion": 199.22623398181815
       }
-    }
-  },
-  "107": {
-    "waiter_6": {
-      "score": 50.0,
-      "confidence": 0.512166048249888,
+    },
+    "waiter_2": {
+      "score": 57.360237890224916,
+      "confidence": 0.6273010405997672,
       "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
+        "efficiency": 37.5,
+        "throughput": 87.5,
+        "consistency": 62.5
+      },
+      "metrics": {
+        "n_orders": 7,
+        "total_complexity": 36.0,
+        "active_hours": 6.160303484731251,
+        "median_eff_raw": 258.02939086363637,
+        "eff_dispersion": 114.1262081292208
+      }
+    },
+    "waiter_3": {
+      "score": 33.06582105430129,
+      "confidence": 0.4768701752362072,
+      "components": {
+        "efficiency": 25.0,
+        "throughput": 37.5,
+        "consistency": 25.0
       },
       "metrics": {
         "n_orders": 4,
-        "total_complexity": 12.0,
-        "active_hours": 7.108623816106054,
-        "median_eff_raw": 621.19685625,
-        "eff_dispersion": 235.1028189583334
+        "total_complexity": 17.0,
+        "active_hours": 4.323203254673216,
+        "median_eff_raw": 272.4210947878788,
+        "eff_dispersion": 234.5867606363637
       }
-    }
-  },
-  "108": {
-    "waiter_6": {
-      "score": 50.0,
-      "confidence": 0.549101979755527,
+    },
+    "waiter_4": {
+      "score": 63.97879961680318,
+      "confidence": 0.6109712825916865,
       "components": {
-        "efficiency": 0.0,
+        "efficiency": 50.0,
         "throughput": 100.0,
+        "consistency": 50.0
+      },
+      "metrics": {
+        "n_orders": 8,
+        "total_complexity": 33.0,
+        "active_hours": 5.211518086658584,
+        "median_eff_raw": 255.38758536363636,
+        "eff_dispersion": 156.9454503863636
+      }
+    },
+    "waiter_5": {
+      "score": 67.39804028584075,
+      "confidence": 0.6394774095575323,
+      "components": {
+        "efficiency": 62.5,
+        "throughput": 75.0,
+        "consistency": 75.0
+      },
+      "metrics": {
+        "n_orders": 6,
+        "total_complexity": 36.0,
+        "active_hours": 7.201233644154336,
+        "median_eff_raw": 234.46302125757575,
+        "eff_dispersion": 71.33151989069265
+      }
+    },
+    "waiter_6": {
+      "score": 43.983648527216886,
+      "confidence": 0.6403276297656038,
+      "components": {
+        "efficiency": 12.5,
+        "throughput": 62.5,
+        "consistency": 87.5
+      },
+      "metrics": {
+        "n_orders": 6,
+        "total_complexity": 31.0,
+        "active_hours": 6.63525841554006,
+        "median_eff_raw": 371.5476258,
+        "eff_dispersion": 99.56885691818178
+      }
+    },
+    "waiter_7": {
+      "score": 69.64351058647449,
+      "confidence": 0.6430023525498887,
+      "components": {
+        "efficiency": 87.5,
+        "throughput": 25.0,
         "consistency": 100.0
       },
       "metrics": {
         "n_orders": 5,
-        "total_complexity": 21.0,
-        "active_hours": 5.778117928306262,
-        "median_eff_raw": 356.3096782,
-        "eff_dispersion": 188.22748775000002
+        "total_complexity": 26.0,
+        "active_hours": 7.020225541922781,
+        "median_eff_raw": 156.08111527272726,
+        "eff_dispersion": 25.39945994805194
+      }
+    },
+    "waiter_8": {
+      "score": 19.0871367021605,
+      "confidence": 0.4194713553955187,
+      "components": {
+        "efficiency": 0.0,
+        "throughput": 12.5,
+        "consistency": 37.5
+      },
+      "metrics": {
+        "n_orders": 3,
+        "total_complexity": 9.0,
+        "active_hours": 4.6785294366545145,
+        "median_eff_raw": 394.39081799999997,
+        "eff_dispersion": 267.28160954545456
       }
     }
   },
-  "109": {
+  "shift_5": {
+    "waiter_1": {
+      "score": 67.74508376463649,
+      "confidence": 0.5326778352848645,
+      "components": {
+        "efficiency": 62.5,
+        "throughput": 100.0,
+        "consistency": 50.0
+      },
+      "metrics": {
+        "n_orders": 4,
+        "total_complexity": 18.0,
+        "active_hours": 2.336334827740987,
+        "median_eff_raw": 234.211685375,
+        "eff_dispersion": 99.69939653645838
+      }
+    },
+    "waiter_2": {
+      "score": 50.57786260065369,
+      "confidence": 0.5519084004357934,
+      "components": {
+        "efficiency": 50.0,
+        "throughput": 62.5,
+        "consistency": 37.5
+      },
+      "metrics": {
+        "n_orders": 5,
+        "total_complexity": 29.0,
+        "active_hours": 5.156095064746009,
+        "median_eff_raw": 237.79645366666665,
+        "eff_dispersion": 157.97097366666662
+      }
+    },
+    "waiter_3": {
+      "score": 39.48887264449163,
+      "confidence": 0.6716121580037213,
+      "components": {
+        "efficiency": 12.5,
+        "throughput": 50.0,
+        "consistency": 87.5
+      },
+      "metrics": {
+        "n_orders": 8,
+        "total_complexity": 45.0,
+        "active_hours": 8.165357272161378,
+        "median_eff_raw": 284.6506804071429,
+        "eff_dispersion": 94.87859711458336
+      }
+    },
+    "waiter_4": {
+      "score": 29.035133213604393,
+      "confidence": 0.5358111310659346,
+      "components": {
+        "efficiency": 25.0,
+        "throughput": 37.5,
+        "consistency": 12.5
+      },
+      "metrics": {
+        "n_orders": 6,
+        "total_complexity": 26.0,
+        "active_hours": 5.686916163629956,
+        "median_eff_raw": 271.19181046666665,
+        "eff_dispersion": 267.31322198888887
+      }
+    },
+    "waiter_5": {
+      "score": 75.43303341915019,
+      "confidence": 0.6597982994000202,
+      "components": {
+        "efficiency": 87.5,
+        "throughput": 75.0,
+        "consistency": 62.5
+      },
+      "metrics": {
+        "n_orders": 8,
+        "total_complexity": 46.0,
+        "active_hours": 7.862285929719607,
+        "median_eff_raw": 176.03014695833332,
+        "eff_dispersion": 69.89171039285716
+      }
+    },
     "waiter_6": {
-      "score": 50.0,
-      "confidence": 0.5972503432248042,
+      "score": 30.4490166355303,
+      "confidence": 0.4757303759057253,
+      "components": {
+        "efficiency": 37.5,
+        "throughput": 12.5,
+        "consistency": 25.0
+      },
+      "metrics": {
+        "n_orders": 3,
+        "total_complexity": 21.0,
+        "active_hours": 5.262419685522715,
+        "median_eff_raw": 267.8581433333334,
+        "eff_dispersion": 194.04825822222222
+      }
+    },
+    "waiter_7": {
+      "score": 62.74520650600033,
+      "confidence": 0.599147823288948,
+      "components": {
+        "efficiency": 75.0,
+        "throughput": 25.0,
+        "consistency": 100.0
+      },
+      "metrics": {
+        "n_orders": 4,
+        "total_complexity": 28.0,
+        "active_hours": 6.914391656385527,
+        "median_eff_raw": 193.59932571874998,
+        "eff_dispersion": 48.16975511383927
+      }
+    },
+    "waiter_8": {
+      "score": 41.766791162992845,
+      "confidence": 0.6554725580047662,
       "components": {
         "efficiency": 0.0,
+        "throughput": 87.5,
+        "consistency": 75.0
+      },
+      "metrics": {
+        "n_orders": 8,
+        "total_complexity": 38.0,
+        "active_hours": 6.040695994430118,
+        "median_eff_raw": 291.46690146666674,
+        "eff_dispersion": 108.72099612589284
+      }
+    }
+  },
+  "shift_6": {
+    "waiter_1": {
+      "score": 51.25,
+      "confidence": 0.5316800733351179,
+      "components": {
+        "efficiency": 75.0,
+        "throughput": 37.5,
+        "consistency": 12.5
+      },
+      "metrics": {
+        "n_orders": 5,
+        "total_complexity": 25.0,
+        "active_hours": 6.976024525827832,
+        "median_eff_raw": 218.55053360000002,
+        "eff_dispersion": 169.976482575
+      }
+    },
+    "waiter_2": {
+      "score": 23.15672216194689,
+      "confidence": 0.5480284962105751,
+      "components": {
+        "efficiency": 0.0,
+        "throughput": 12.5,
+        "consistency": 75.0
+      },
+      "metrics": {
+        "n_orders": 6,
+        "total_complexity": 15.0,
+        "active_hours": 8.22555441028542,
+        "median_eff_raw": 569.1466388000001,
+        "eff_dispersion": 285.155666375
+      }
+    },
+    "waiter_3": {
+      "score": 27.475910783054864,
+      "confidence": 0.5483744505388044,
+      "components": {
+        "efficiency": 12.5,
+        "throughput": 25.0,
+        "consistency": 50.0
+      },
+      "metrics": {
+        "n_orders": 5,
+        "total_complexity": 27.0,
+        "active_hours": 7.8284735243850285,
+        "median_eff_raw": 452.2498901428571,
+        "eff_dispersion": 297.89656840000004
+      }
+    },
+    "waiter_4": {
+      "score": 51.25,
+      "confidence": 0.6371692029876455,
+      "components": {
+        "efficiency": 50.0,
+        "throughput": 62.5,
+        "consistency": 37.5
+      },
+      "metrics": {
+        "n_orders": 11,
+        "total_complexity": 38.0,
+        "active_hours": 7.597445779442787,
+        "median_eff_raw": 296.2226992,
+        "eff_dispersion": 208.29908620000003
+      }
+    },
+    "waiter_5": {
+      "score": 51.25,
+      "confidence": 0.6407650811462198,
+      "components": {
+        "efficiency": 37.5,
+        "throughput": 50.0,
+        "consistency": 87.5
+      },
+      "metrics": {
+        "n_orders": 8,
+        "total_complexity": 31.0,
+        "active_hours": 6.6274520297182935,
+        "median_eff_raw": 395.6468407,
+        "eff_dispersion": 155.89174546000004
+      }
+    },
+    "waiter_6": {
+      "score": 58.048954841153005,
+      "confidence": 0.6884243738457794,
+      "components": {
+        "efficiency": 25.0,
+        "throughput": 87.5,
+        "consistency": 100.0
+      },
+      "metrics": {
+        "n_orders": 9,
+        "total_complexity": 58.0,
+        "active_hours": 7.725198723872503,
+        "median_eff_raw": 432.3986656,
+        "eff_dispersion": 153.58464171428574
+      }
+    },
+    "waiter_7": {
+      "score": 74.7389770849851,
+      "confidence": 0.5138154042406171,
+      "components": {
+        "efficiency": 87.5,
         "throughput": 100.0,
+        "consistency": 25.0
+      },
+      "metrics": {
+        "n_orders": 4,
+        "total_complexity": 26.0,
+        "active_hours": 3.0601281978024377,
+        "median_eff_raw": 205.92178744,
+        "eff_dispersion": 155.79775460666667
+      }
+    },
+    "waiter_8": {
+      "score": 64.72614185760466,
+      "confidence": 0.6613648572454802,
+      "components": {
+        "efficiency": 62.5,
+        "throughput": 75.0,
+        "consistency": 62.5
+      },
+      "metrics": {
+        "n_orders": 10,
+        "total_complexity": 45.0,
+        "active_hours": 8.126756976379289,
+        "median_eff_raw": 286.35215300000004,
+        "eff_dispersion": 144.62728685
+      }
+    }
+  },
+  "shift_7": {
+    "waiter_1": {
+      "score": 78.51701649463406,
+      "confidence": 0.5424713875089895,
+      "components": {
+        "efficiency": 87.5,
+        "throughput": 75.0,
+        "consistency": 87.5
+      },
+      "metrics": {
+        "n_orders": 3,
+        "total_complexity": 17.0,
+        "active_hours": 2.610574900243017,
+        "median_eff_raw": 137.6320976,
+        "eff_dispersion": 32.591561520833324
+      }
+    },
+    "waiter_2": {
+      "score": 68.63289838415949,
+      "confidence": 0.6595640174516413,
+      "components": {
+        "efficiency": 62.5,
+        "throughput": 100.0,
+        "consistency": 50.0
+      },
+      "metrics": {
+        "n_orders": 10,
+        "total_complexity": 51.0,
+        "active_hours": 6.043002246088451,
+        "median_eff_raw": 246.39150377777776,
+        "eff_dispersion": 136.93466406250002
+      }
+    },
+    "waiter_3": {
+      "score": 46.18191804248202,
+      "confidence": 0.6368962265707256,
+      "components": {
+        "efficiency": 25.0,
+        "throughput": 87.5,
+        "consistency": 37.5
+      },
+      "metrics": {
+        "n_orders": 9,
+        "total_complexity": 42.0,
+        "active_hours": 5.429217435850037,
+        "median_eff_raw": 299.23920791666666,
+        "eff_dispersion": 176.95218941666664
+      }
+    },
+    "waiter_4": {
+      "score": 59.294972504158956,
+      "confidence": 0.5829274675539098,
+      "components": {
+        "efficiency": 75.0,
+        "throughput": 12.5,
+        "consistency": 100.0
+      },
+      "metrics": {
+        "n_orders": 4,
+        "total_complexity": 17.0,
+        "active_hours": 5.765040769444572,
+        "median_eff_raw": 159.4137501388889,
+        "eff_dispersion": 30.863614194444466
+      }
+    },
+    "waiter_5": {
+      "score": 42.00516552424082,
+      "confidence": 0.4246357910546118,
+      "components": {
+        "efficiency": 37.5,
+        "throughput": 25.0,
+        "consistency": 75.0
+      },
+      "metrics": {
+        "n_orders": 2,
+        "total_complexity": 11.0,
+        "active_hours": 3.0074554514222673,
+        "median_eff_raw": 264.98729202083337,
+        "eff_dispersion": 126.94643764583333
+      }
+    },
+    "waiter_6": {
+      "score": 32.05758892843391,
+      "confidence": 0.5610476952674338,
+      "components": {
+        "efficiency": 12.5,
+        "throughput": 37.5,
+        "consistency": 62.5
+      },
+      "metrics": {
+        "n_orders": 5,
+        "total_complexity": 24.0,
+        "active_hours": 4.487488490806686,
+        "median_eff_raw": 343.3666662,
+        "eff_dispersion": 173.33253386190475
+      }
+    },
+    "waiter_7": {
+      "score": 45.08263203168226,
+      "confidence": 0.5592958310279434,
+      "components": {
+        "efficiency": 50.0,
+        "throughput": 50.0,
+        "consistency": 25.0
+      },
+      "metrics": {
+        "n_orders": 6,
+        "total_complexity": 25.0,
+        "active_hours": 4.663208896054162,
+        "median_eff_raw": 264.1371948666667,
+        "eff_dispersion": 180.3268203583333
+      }
+    },
+    "waiter_8": {
+      "score": 24.52503639612472,
+      "confidence": 0.5521317748889282,
+      "components": {
+        "efficiency": 0.0,
+        "throughput": 62.5,
+        "consistency": 12.5
+      },
+      "metrics": {
+        "n_orders": 8,
+        "total_complexity": 28.0,
+        "active_hours": 5.155878801080916,
+        "median_eff_raw": 523.5468980555556,
+        "eff_dispersion": 662.9455386666668
+      }
+    }
+  },
+  "shift_8": {
+    "waiter_1": {
+      "score": 57.04784568782672,
+      "confidence": 0.5873565303822373,
+      "components": {
+        "efficiency": 87.5,
+        "throughput": 25.0,
+        "consistency": 37.5
+      },
+      "metrics": {
+        "n_orders": 6,
+        "total_complexity": 29.0,
+        "active_hours": 7.807533171110683,
+        "median_eff_raw": 166.89935763714288,
+        "eff_dispersion": 87.90749142142857
+      }
+    },
+    "waiter_2": {
+      "score": 37.22931694110721,
+      "confidence": 0.6269268795782074,
+      "components": {
+        "efficiency": 25.0,
+        "throughput": 37.5,
+        "consistency": 62.5
+      },
+      "metrics": {
+        "n_orders": 8,
+        "total_complexity": 29.0,
+        "active_hours": 6.678553233941396,
+        "median_eff_raw": 355.4880212,
+        "eff_dispersion": 160.39497795000005
+      }
+    },
+    "waiter_3": {
+      "score": 32.93979647809277,
+      "confidence": 0.5903523689472072,
+      "components": {
+        "efficiency": 12.5,
+        "throughput": 50.0,
+        "consistency": 50.0
+      },
+      "metrics": {
+        "n_orders": 6,
+        "total_complexity": 29.0,
+        "active_hours": 6.579158824682236,
+        "median_eff_raw": 405.97410665999996,
+        "eff_dispersion": 205.45505796999993
+      }
+    },
+    "waiter_4": {
+      "score": 72.53126668620598,
+      "confidence": 0.6033351131953035,
+      "components": {
+        "efficiency": 62.5,
+        "throughput": 100.0,
+        "consistency": 75.0
+      },
+      "metrics": {
+        "n_orders": 5,
+        "total_complexity": 34.0,
+        "active_hours": 4.597895924978786,
+        "median_eff_raw": 196.2876516,
+        "eff_dispersion": 73.5193888333333
+      }
+    },
+    "waiter_5": {
+      "score": 46.045208093085236,
+      "confidence": 0.4538882482273009,
+      "components": {
+        "efficiency": 37.5,
+        "throughput": 75.0,
+        "consistency": 25.0
+      },
+      "metrics": {
+        "n_orders": 4,
+        "total_complexity": 18.0,
+        "active_hours": 3.914242560002539,
+        "median_eff_raw": 311.9802074833333,
+        "eff_dispersion": 406.11392962499997
+      }
+    },
+    "waiter_6": {
+      "score": 43.8846197204337,
+      "confidence": 0.6410140788434604,
+      "components": {
+        "efficiency": 0.0,
+        "throughput": 87.5,
+        "consistency": 87.5
+      },
+      "metrics": {
+        "n_orders": 6,
+        "total_complexity": 30.0,
+        "active_hours": 6.049022683037652,
+        "median_eff_raw": 412.43131374999996,
+        "eff_dispersion": 106.4972288125
+      }
+    },
+    "waiter_7": {
+      "score": 33.44410475411554,
+      "confidence": 0.46809581718411114,
+      "components": {
+        "efficiency": 50.0,
+        "throughput": 12.5,
+        "consistency": 12.5
+      },
+      "metrics": {
+        "n_orders": 5,
+        "total_complexity": 18.0,
+        "active_hours": 8.078783904777632,
+        "median_eff_raw": 224.451938,
+        "eff_dispersion": 335.2538824666667
+      }
+    },
+    "waiter_8": {
+      "score": 73.00095661213741,
+      "confidence": 0.653435371961324,
+      "components": {
+        "efficiency": 75.0,
+        "throughput": 62.5,
         "consistency": 100.0
       },
       "metrics": {
         "n_orders": 6,
         "total_complexity": 37.0,
-        "active_hours": 5.813826591703627,
-        "median_eff_raw": 368.5545999791667,
-        "eff_dispersion": 202.5935398020833
+        "active_hours": 8.145115945869023,
+        "median_eff_raw": 195.59037765,
+        "eff_dispersion": 49.57302665999998
       }
     }
   },
-  "110": {
-    "waiter_6": {
-      "score": 50.0,
-      "confidence": 0.64754050659576,
+  "shift_9": {
+    "waiter_1": {
+      "score": 76.03805076598672,
+      "confidence": 0.6636342035332375,
       "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
+        "efficiency": 87.5,
+        "throughput": 50.0,
         "consistency": 100.0
+      },
+      "metrics": {
+        "n_orders": 5,
+        "total_complexity": 33.0,
+        "active_hours": 7.3239341130521565,
+        "median_eff_raw": 185.6646332,
+        "eff_dispersion": 26.488586071111087
+      }
+    },
+    "waiter_2": {
+      "score": 61.35410562460851,
+      "confidence": 0.6405037253673753,
+      "components": {
+        "efficiency": 50.0,
+        "throughput": 75.0,
+        "consistency": 75.0
+      },
+      "metrics": {
+        "n_orders": 6,
+        "total_complexity": 41.0,
+        "active_hours": 7.949737586710188,
+        "median_eff_raw": 272.91498009583336,
+        "eff_dispersion": 89.53355804458334
+      }
+    },
+    "waiter_3": {
+      "score": 30.434422637056166,
+      "confidence": 0.5987114342487295,
+      "components": {
+        "efficiency": 12.5,
+        "throughput": 37.5,
+        "consistency": 50.0
+      },
+      "metrics": {
+        "n_orders": 6,
+        "total_complexity": 30.0,
+        "active_hours": 7.924218378331926,
+        "median_eff_raw": 361.63704081944445,
+        "eff_dispersion": 167.96107261527777
+      }
+    },
+    "waiter_4": {
+      "score": 60.195459780571525,
+      "confidence": 0.6250523664254322,
+      "components": {
+        "efficiency": 75.0,
+        "throughput": 62.5,
+        "consistency": 25.0
       },
       "metrics": {
         "n_orders": 7,
         "total_complexity": 38.0,
-        "active_hours": 6.062246715823809,
-        "median_eff_raw": 421.2901541111111,
-        "eff_dispersion": 146.97211534027775
+        "active_hours": 7.658240735001034,
+        "median_eff_raw": 205.11610425,
+        "eff_dispersion": 96.94660753666665
       }
-    }
-  },
-  "111": {
-    "waiter_6": {
-      "score": 50.0,
-      "confidence": 0.5117857142857143,
+    },
+    "waiter_5": {
+      "score": 26.151970843771295,
+      "confidence": 0.5855919609904913,
       "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
+        "efficiency": 25.0,
+        "throughput": 25.0,
+        "consistency": 12.5
       },
       "metrics": {
-        "n_orders": 2,
-        "total_complexity": 6.0,
-        "active_hours": 1.3607263311412598,
-        "median_eff_raw": 398.984350875,
-        "eff_dispersion": 2.7329526250000526
+        "n_orders": 6,
+        "total_complexity": 25.0,
+        "active_hours": 6.78410991191864,
+        "median_eff_raw": 358.6308745,
+        "eff_dispersion": 171.99775142500005
       }
-    }
-  },
-  "112": {
+    },
     "waiter_6": {
-      "score": 50.0,
-      "confidence": 0.5266229685217881,
+      "score": 44.52069220180589,
+      "confidence": 0.6838185838745048,
       "components": {
         "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
+        "throughput": 87.5,
+        "consistency": 87.5
+      },
+      "metrics": {
+        "n_orders": 9,
+        "total_complexity": 40.0,
+        "active_hours": 6.757704067230224,
+        "median_eff_raw": 446.41478759999995,
+        "eff_dispersion": 135.50136479999998
+      }
+    },
+    "waiter_7": {
+      "score": 48.10520457393626,
+      "confidence": 0.538891753191419,
+      "components": {
+        "efficiency": 62.5,
+        "throughput": 12.5,
+        "consistency": 62.5
       },
       "metrics": {
         "n_orders": 4,
-        "total_complexity": 20.0,
-        "active_hours": 6.248622428046333,
-        "median_eff_raw": 328.9152412916667,
-        "eff_dispersion": 167.00949644886367
+        "total_complexity": 21.0,
+        "active_hours": 7.103743720253308,
+        "median_eff_raw": 214.57966888571428,
+        "eff_dispersion": 96.5693312914286
       }
-    }
-  },
-  "113": {
-    "waiter_6": {
-      "score": 50.0,
-      "confidence": 0.4848533365501476,
+    },
+    "waiter_8": {
+      "score": 55.76781707624198,
+      "confidence": 0.6326225342796047,
       "components": {
-        "efficiency": 0.0,
+        "efficiency": 37.5,
         "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 3,
-        "total_complexity": 10.0,
-        "active_hours": 3.2292652591731814,
-        "median_eff_raw": 448.61030566666665,
-        "eff_dispersion": 139.72152455000003
-      }
-    }
-  },
-  "114": {
-    "waiter_6": {
-      "score": 50.0,
-      "confidence": 0.602201331018919,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
+        "consistency": 37.5
       },
       "metrics": {
         "n_orders": 8,
         "total_complexity": 34.0,
-        "active_hours": 7.974188109768762,
-        "median_eff_raw": 380.4745515625,
-        "eff_dispersion": 269.16466419999995
-      }
-    }
-  },
-  "115": {
-    "waiter_6": {
-      "score": 50.0,
-      "confidence": 0.482408355200905,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 4,
-        "total_complexity": 18.0,
-        "active_hours": 5.3921814847654765,
-        "median_eff_raw": 563.2498831111111,
-        "eff_dispersion": 474.2566584761905
-      }
-    }
-  },
-  "116": {
-    "waiter_6": {
-      "score": 50.0,
-      "confidence": 0.5397158946269518,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 2,
-        "total_complexity": 17.0,
-        "active_hours": 1.56116826110416,
-        "median_eff_raw": 213.81957128472223,
-        "eff_dispersion": 28.68149115972227
-      }
-    }
-  },
-  "117": {
-    "waiter_6": {
-      "score": 50.0,
-      "confidence": 0.574944455597927,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 7,
-        "total_complexity": 29.0,
-        "active_hours": 6.371624875002437,
-        "median_eff_raw": 482.588027625,
-        "eff_dispersion": 369.4006610624999
-      }
-    }
-  },
-  "118": {
-    "waiter_6": {
-      "score": 50.0,
-      "confidence": 0.651204572705827,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 10,
-        "total_complexity": 52.0,
-        "active_hours": 6.439429806669553,
-        "median_eff_raw": 352.04721139285715,
-        "eff_dispersion": 221.24613795454547
-      }
-    }
-  },
-  "119": {
-    "waiter_6": {
-      "score": 50.0,
-      "confidence": 0.6658500136301754,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 9,
-        "total_complexity": 55.0,
-        "active_hours": 5.490441387229495,
-        "median_eff_raw": 388.9397266666667,
-        "eff_dispersion": 182.26125733333333
-      }
-    }
-  },
-  "120": {
-    "waiter_7": {
-      "score": 50.0,
-      "confidence": 0.5497888314468707,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 7,
-        "total_complexity": 33.0,
-        "active_hours": 7.582756333947182,
-        "median_eff_raw": 215.9902464,
-        "eff_dispersion": 267.757977734127
-      }
-    }
-  },
-  "121": {
-    "waiter_7": {
-      "score": 50.0,
-      "confidence": 0.7004882897178274,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 9,
-        "total_complexity": 63.0,
-        "active_hours": 6.714491613904635,
-        "median_eff_raw": 124.12057066666667,
-        "eff_dispersion": 38.88285124999999
-      }
-    }
-  },
-  "122": {
-    "waiter_7": {
-      "score": 50.0,
-      "confidence": 0.5861440366147229,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 4,
-        "total_complexity": 23.0,
-        "active_hours": 6.017935498356819,
-        "median_eff_raw": 167.5078298,
-        "eff_dispersion": 42.33380519374998
-      }
-    }
-  },
-  "123": {
-    "waiter_7": {
-      "score": 50.0,
-      "confidence": 0.6617547086099866,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 9,
-        "total_complexity": 50.0,
-        "active_hours": 5.269372791979048,
-        "median_eff_raw": 161.90316075,
-        "eff_dispersion": 76.12223999999999
-      }
-    }
-  },
-  "124": {
-    "waiter_7": {
-      "score": 50.0,
-      "confidence": 0.7449594498415684,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 12,
-        "total_complexity": 64.0,
-        "active_hours": 7.458646969993909,
-        "median_eff_raw": 203.67914706666667,
-        "eff_dispersion": 48.55331786180557
-      }
-    }
-  },
-  "125": {
-    "waiter_7": {
-      "score": 50.0,
-      "confidence": 0.4455867937513444,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 3,
-        "total_complexity": 15.0,
-        "active_hours": 1.024669155544705,
-        "median_eff_raw": 267.2319343333333,
-        "eff_dispersion": 213.1778917272727
-      }
-    }
-  },
-  "126": {
-    "waiter_7": {
-      "score": 50.0,
-      "confidence": 0.5156531068874194,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 5,
-        "total_complexity": 29.0,
-        "active_hours": 7.394634711411264,
-        "median_eff_raw": 184.472756375,
-        "eff_dispersion": 206.66245757142855
-      }
-    }
-  },
-  "127": {
-    "waiter_7": {
-      "score": 50.0,
-      "confidence": 0.5478612865130053,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 5,
-        "total_complexity": 24.0,
-        "active_hours": 4.608895310560862,
-        "median_eff_raw": 217.71068225,
-        "eff_dispersion": 131.0963334
-      }
-    }
-  },
-  "128": {
-    "waiter_7": {
-      "score": 50.0,
-      "confidence": 0.5462440721859311,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 4,
-        "total_complexity": 26.0,
-        "active_hours": 6.3332898355854885,
-        "median_eff_raw": 131.78006324999998,
-        "eff_dispersion": 64.32774199999999
-      }
-    }
-  },
-  "129": {
-    "waiter_7": {
-      "score": 50.0,
-      "confidence": 0.5808924739440388,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 7,
-        "total_complexity": 27.0,
-        "active_hours": 5.365192013912731,
-        "median_eff_raw": 178.2197322,
-        "eff_dispersion": 118.70196416666667
-      }
-    }
-  },
-  "130": {
-    "waiter_7": {
-      "score": 50.0,
-      "confidence": 0.6402604477731942,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 12,
-        "total_complexity": 66.0,
-        "active_hours": 6.540442625814014,
-        "median_eff_raw": 169.71083629999998,
-        "eff_dispersion": 176.55672248295457
-      }
-    }
-  },
-  "131": {
-    "waiter_7": {
-      "score": 50.0,
-      "confidence": 0.5622268294332644,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 4,
-        "total_complexity": 23.0,
-        "active_hours": 5.703200064433945,
-        "median_eff_raw": 195.70511456666665,
-        "eff_dispersion": 69.55208568333333
-      }
-    }
-  },
-  "132": {
-    "waiter_7": {
-      "score": 50.0,
-      "confidence": 0.5404681620825061,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 4,
-        "total_complexity": 15.0,
-        "active_hours": 4.82827634440528,
-        "median_eff_raw": 253.77080620833334,
-        "eff_dispersion": 81.47597910416667
-      }
-    }
-  },
-  "133": {
-    "waiter_7": {
-      "score": 50.0,
-      "confidence": 0.6266184662564717,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 8,
-        "total_complexity": 33.0,
-        "active_hours": 5.490373507274522,
-        "median_eff_raw": 232.42290225,
-        "eff_dispersion": 115.85243029166668
-      }
-    }
-  },
-  "134": {
-    "waiter_7": {
-      "score": 50.0,
-      "confidence": 0.6512504499311857,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 7,
-        "total_complexity": 28.0,
-        "active_hours": 4.868129716714223,
-        "median_eff_raw": 233.9877185,
-        "eff_dispersion": 61.2920201111111
-      }
-    }
-  },
-  "135": {
-    "waiter_7": {
-      "score": 50.0,
-      "confidence": 0.5768092862393823,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 6,
-        "total_complexity": 31.0,
-        "active_hours": 8.077925019727813,
-        "median_eff_raw": 207.7352775,
-        "eff_dispersion": 132.55662019047617
-      }
-    }
-  },
-  "136": {
-    "waiter_7": {
-      "score": 50.0,
-      "confidence": 0.5450538273734419,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 5,
-        "total_complexity": 17.0,
-        "active_hours": 6.181107120845053,
-        "median_eff_raw": 269.8272015,
-        "eff_dispersion": 124.2616065
-      }
-    }
-  },
-  "137": {
-    "waiter_7": {
-      "score": 50.0,
-      "confidence": 0.6400913552902263,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 7,
-        "total_complexity": 33.0,
-        "active_hours": 3.0396551277240116,
-        "median_eff_raw": 203.245331,
-        "eff_dispersion": 71.08216162500003
-      }
-    }
-  },
-  "138": {
-    "waiter_7": {
-      "score": 50.0,
-      "confidence": 0.6694471952592497,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 11,
-        "total_complexity": 46.0,
-        "active_hours": 4.077770360840692,
-        "median_eff_raw": 234.08785933333334,
-        "eff_dispersion": 120.17742847916662
-      }
-    }
-  },
-  "139": {
-    "waiter_7": {
-      "score": 50.0,
-      "confidence": 0.7325593418272309,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 10,
-        "total_complexity": 67.0,
-        "active_hours": 5.633234718309509,
-        "median_eff_raw": 158.2807350888889,
-        "eff_dispersion": 36.757508228571425
-      }
-    }
-  },
-  "140": {
-    "waiter_8": {
-      "score": 50.0,
-      "confidence": 0.5936717805362504,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 7,
-        "total_complexity": 31.0,
-        "active_hours": 7.715698355833689,
-        "median_eff_raw": 298.2876995,
-        "eff_dispersion": 185.98782713888886
-      }
-    }
-  },
-  "141": {
-    "waiter_8": {
-      "score": 50.0,
-      "confidence": 0.5968815515617244,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 7,
-        "total_complexity": 38.0,
-        "active_hours": 6.646428639690082,
-        "median_eff_raw": 301.938183625,
-        "eff_dispersion": 208.34362412500002
-      }
-    }
-  },
-  "142": {
-    "waiter_8": {
-      "score": 50.0,
-      "confidence": 0.6917950824410724,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 11,
-        "total_complexity": 50.0,
-        "active_hours": 7.827734333011839,
-        "median_eff_raw": 287.66282766666666,
-        "eff_dispersion": 114.86580664285714
-      }
-    }
-  },
-  "143": {
-    "waiter_8": {
-      "score": 50.0,
-      "confidence": 0.5851185608186324,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 9,
-        "total_complexity": 31.0,
-        "active_hours": 6.349651478330294,
-        "median_eff_raw": 383.400516,
-        "eff_dispersion": 376.88208779999997
-      }
-    }
-  },
-  "144": {
-    "waiter_8": {
-      "score": 50.0,
-      "confidence": 0.4981595674186331,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 4,
-        "total_complexity": 15.0,
-        "active_hours": 1.3825861708323162,
-        "median_eff_raw": 224.7983973,
-        "eff_dispersion": 127.80118461249998
-      }
-    }
-  },
-  "145": {
-    "waiter_8": {
-      "score": 50.0,
-      "confidence": 0.6661296417739091,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 8,
-        "total_complexity": 39.0,
-        "active_hours": 7.487113401956028,
-        "median_eff_raw": 311.38074370634916,
-        "eff_dispersion": 102.07473877083333
-      }
-    }
-  },
-  "146": {
-    "waiter_8": {
-      "score": 50.0,
-      "confidence": 0.49306998437709415,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 4,
-        "total_complexity": 15.0,
-        "active_hours": 5.0531189017163385,
-        "median_eff_raw": 289.7483635,
-        "eff_dispersion": 176.37310735714283
-      }
-    }
-  },
-  "147": {
-    "waiter_8": {
-      "score": 50.0,
-      "confidence": 0.6212117022522983,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 6,
-        "total_complexity": 35.0,
-        "active_hours": 7.123042281402482,
-        "median_eff_raw": 296.1900545238095,
-        "eff_dispersion": 113.71647126726194
-      }
-    }
-  },
-  "148": {
-    "waiter_8": {
-      "score": 50.0,
-      "confidence": 0.6699985674652287,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 8,
-        "total_complexity": 43.0,
-        "active_hours": 4.629754620525572,
-        "median_eff_raw": 216.14357191666667,
-        "eff_dispersion": 71.60018008333333
-      }
-    }
-  },
-  "149": {
-    "waiter_8": {
-      "score": 50.0,
-      "confidence": 0.7204638799802228,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 11,
-        "total_complexity": 65.0,
-        "active_hours": 6.977357683049308,
-        "median_eff_raw": 234.6099355,
-        "eff_dispersion": 72.44351797142863
-      }
-    }
-  },
-  "150": {
-    "waiter_8": {
-      "score": 50.0,
-      "confidence": 0.49056440505965615,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 5,
-        "total_complexity": 15.0,
-        "active_hours": 2.306208356420199,
-        "median_eff_raw": 332.11334175,
-        "eff_dispersion": 284.5133053333333
-      }
-    }
-  },
-  "151": {
-    "waiter_8": {
-      "score": 50.0,
-      "confidence": 0.6234891138528448,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 5,
-        "total_complexity": 36.0,
-        "active_hours": 5.488265727824635,
-        "median_eff_raw": 240.6498624,
-        "eff_dispersion": 70.96407277777774
-      }
-    }
-  },
-  "152": {
-    "waiter_8": {
-      "score": 50.0,
-      "confidence": 0.6938048974663519,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 9,
-        "total_complexity": 44.0,
-        "active_hours": 7.807347006069289,
-        "median_eff_raw": 284.0863764,
-        "eff_dispersion": 79.64804833333329
-      }
-    }
-  },
-  "153": {
-    "waiter_8": {
-      "score": 50.0,
-      "confidence": 0.5868024705300265,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 6,
-        "total_complexity": 28.0,
-        "active_hours": 8.271241231362024,
-        "median_eff_raw": 386.2088659583334,
-        "eff_dispersion": 199.46930805208336
-      }
-    }
-  },
-  "154": {
-    "waiter_8": {
-      "score": 50.0,
-      "confidence": 0.6613802379523283,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 10,
-        "total_complexity": 43.0,
-        "active_hours": 6.960762294199732,
-        "median_eff_raw": 300.69567901666665,
-        "eff_dispersion": 147.73003097916668
-      }
-    }
-  },
-  "155": {
-    "waiter_8": {
-      "score": 50.0,
-      "confidence": 0.7150691185952996,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 10,
-        "total_complexity": 60.0,
-        "active_hours": 7.838162098328272,
-        "median_eff_raw": 255.22074430000004,
-        "eff_dispersion": 72.55271897361109
-      }
-    }
-  },
-  "156": {
-    "waiter_8": {
-      "score": 50.0,
-      "confidence": 0.6440521153752052,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 8,
-        "total_complexity": 44.0,
-        "active_hours": 5.820433999167548,
-        "median_eff_raw": 231.53877616666665,
-        "eff_dispersion": 110.55808566170634
-      }
-    }
-  },
-  "157": {
-    "waiter_8": {
-      "score": 50.0,
-      "confidence": 0.6824377744962703,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 11,
-        "total_complexity": 66.0,
-        "active_hours": 6.5434196569522225,
-        "median_eff_raw": 338.9422662,
-        "eff_dispersion": 176.59676694047616
-      }
-    }
-  },
-  "158": {
-    "waiter_8": {
-      "score": 50.0,
-      "confidence": 0.6033107679344236,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 6,
-        "total_complexity": 28.0,
-        "active_hours": 5.6697598727544145,
-        "median_eff_raw": 277.87136380000004,
-        "eff_dispersion": 115.09674094999997
-      }
-    }
-  },
-  "159": {
-    "waiter_8": {
-      "score": 50.0,
-      "confidence": 0.7230911911958597,
-      "components": {
-        "efficiency": 0.0,
-        "throughput": 100.0,
-        "consistency": 100.0
-      },
-      "metrics": {
-        "n_orders": 10,
-        "total_complexity": 62.0,
-        "active_hours": 6.952176025576062,
-        "median_eff_raw": 229.78519702857142,
-        "eff_dispersion": 59.10695894791667
+        "active_hours": 5.228215598066648,
+        "median_eff_raw": 288.2786758133334,
+        "eff_dispersion": 135.47048993750005
       }
     }
   }

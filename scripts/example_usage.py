@@ -12,6 +12,7 @@ import json
 
 from src.data.mock_data import generate_mock_data
 from src.scoring.aggregate import aggregate_scores_by_period, compute_trend, generate_leaderboard
+from src.scoring.schema import ScoringConfig
 from src.scoring.score_shift import compute_scores
 
 
@@ -33,24 +34,21 @@ def main():
 
     # Step 2: Configure scoring
     print("\n[2/5] Configuring scoring algorithm...")
-    config = {
-        "weights": {
+    config = ScoringConfig(
+        weights={
             "efficiency": 0.50,  # Highest weight
             "throughput": 0.30,  # Medium weight
             "consistency": 0.20,  # Lower weight
         },
-        "item_weights": {
-            # Default: all items have weight 1.0
-            # Can customize per item: "burger": 2.0, "cocktail": 1.5, etc.
-        },
-        "workload_adjustment": "multiplicative",  # or "stratified"
-        "shrinkage_strength": 0.3,  # 30% shrinkage toward shift median
-        "winsorize_quantile": 0.05,  # Cap extreme shifts at 5th/95th percentile
-        "min_orders_for_confidence": 5,  # Orders needed for 50% confidence
-    }
+        workload_adjustment="multiplicative",
+        shrinkage_strength=0.3,
+        winsorize_quantile=0.05,
+        min_orders_for_confidence=5,
+        min_confidence_for_aggregation=0.3,
+    )
 
     print("  Component weights:")
-    for component, weight in config["weights"].items():
+    for component, weight in config.weights.items():
         print(f"    {component.capitalize()}: {weight:.0%}")
 
     # Step 3: Compute shift-level scores
@@ -75,7 +73,11 @@ def main():
     # Step 4: Aggregate to weekly scores
     print("\n[4/5] Aggregating to weekly scores...")
     weekly_scores = aggregate_scores_by_period(
-        results, shifts_df, period="week", min_confidence=0.3, winsorize_quantile=0.05
+        results,
+        shifts_df,
+        period="week",
+        min_confidence=config.min_confidence_for_aggregation,
+        winsorize_quantile=config.winsorize_quantile,
     )
 
     print(f"  Generated {len(weekly_scores)} waiter-week combinations")

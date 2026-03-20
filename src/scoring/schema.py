@@ -201,6 +201,12 @@ class ScoringConfig(BaseModel):
     epsilon: float = Field(
         default=1e-6, gt=0, description="Small constant to prevent division by zero"
     )
+    min_confidence_for_aggregation: float = Field(
+        default=0.3,
+        ge=0.0,
+        le=1.0,
+        description="Minimum confidence threshold for inclusion in temporal aggregation",
+    )
 
     @field_validator("weights")
     @classmethod
