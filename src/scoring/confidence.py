@@ -143,10 +143,19 @@ def compute_overall_confidence(
 
     # Compute individual components
     sample_conf = compute_sample_size_confidence(
-        n_orders, min_orders=config.get("min_orders_for_confidence", 5)
+        n_orders,
+        min_orders=config.get("min_orders", config.get("min_orders_for_confidence", 5)),
+        max_orders=config.get("max_orders", 50),
     )
-    complexity_conf = compute_complexity_confidence(total_complexity)
-    stability_conf = compute_stability_confidence(normalized_dispersion)
+    complexity_conf = compute_complexity_confidence(
+        total_complexity,
+        min_complexity=config.get("min_complexity", 10.0),
+        max_complexity=config.get("max_complexity", 100.0),
+    )
+    stability_conf = compute_stability_confidence(
+        normalized_dispersion,
+        max_acceptable_dispersion=config.get("max_acceptable_dispersion", 0.5),
+    )
 
     # Weighted combination
     confidence = (

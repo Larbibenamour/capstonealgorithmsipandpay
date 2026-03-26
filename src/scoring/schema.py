@@ -37,7 +37,7 @@ class Order(BaseModel):
     @classmethod
     def validate_timestamps(cls, v: datetime, info: Any) -> datetime:
         """Ensure completed_ts is after accepted_ts."""
-        if "accepted_ts" in info.data and v < info.data["accepted_ts"]:
+        if "accepted_ts" in info.data and v <= info.data["accepted_ts"]:
             raise ValueError("completed_ts must be after accepted_ts")
         return v
 
@@ -200,6 +200,21 @@ class ScoringConfig(BaseModel):
     )
     epsilon: float = Field(
         default=1e-6, gt=0, description="Small constant to prevent division by zero"
+    )
+    min_orders: int = Field(
+        default=5, ge=1, description="Number of orders for 50% sample-size confidence"
+    )
+    max_orders: int = Field(
+        default=50, ge=1, description="Number of orders for 95% sample-size confidence"
+    )
+    min_complexity: float = Field(
+        default=10.0, gt=0, description="Complexity threshold for 50% complexity confidence"
+    )
+    max_complexity: float = Field(
+        default=100.0, gt=0, description="Complexity threshold for 95% complexity confidence"
+    )
+    max_acceptable_dispersion: float = Field(
+        default=0.5, gt=0, description="Dispersion threshold for stability confidence"
     )
     min_confidence_for_aggregation: float = Field(
         default=0.3,
