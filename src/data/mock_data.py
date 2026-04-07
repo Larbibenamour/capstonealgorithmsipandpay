@@ -191,16 +191,16 @@ def _generate_orders(
     orders = []
     order_counter = 1
 
-    # Item catalog
+    # Item catalog (nightlife drinks and bottles)
     items_catalog = [
         {"item_id": "beer", "base_complexity": 1.0, "category": "drink"},
         {"item_id": "cocktail", "base_complexity": 2.0, "category": "drink"},
         {"item_id": "wine", "base_complexity": 1.0, "category": "drink"},
-        {"item_id": "burger", "base_complexity": 3.0, "category": "food"},
-        {"item_id": "fries", "base_complexity": 1.5, "category": "food"},
-        {"item_id": "salad", "base_complexity": 2.0, "category": "food"},
-        {"item_id": "pizza", "base_complexity": 4.0, "category": "food"},
-        {"item_id": "wings", "base_complexity": 2.5, "category": "food"},
+        {"item_id": "champagne_bottle", "base_complexity": 3.0, "category": "bottle"},
+        {"item_id": "shot", "base_complexity": 1.5, "category": "drink"},
+        {"item_id": "gin_tonic", "base_complexity": 2.0, "category": "drink"},
+        {"item_id": "vodka_bottle", "base_complexity": 4.0, "category": "bottle"},
+        {"item_id": "mojito", "base_complexity": 2.5, "category": "drink"},
     ]
 
     for _, shift in shifts_df.iterrows():
