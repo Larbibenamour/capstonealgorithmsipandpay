@@ -100,6 +100,10 @@ def normalize_efficiency_within_shift(
     eff_stats["efficiency_score"] = 50.0  # default
 
     for shift_id, group in eff_stats.groupby("shift_id"):
+        # Single-waiter shifts receive neutral score — no peer comparison possible
+        if len(group) == 1:
+            eff_stats.loc[group.index, "efficiency_score"] = 50.0
+            continue
         values = group["median_eff_raw"].values
         scores = []
         for v in values:
@@ -125,6 +129,10 @@ def normalize_throughput_within_shift(throughput_df: pd.DataFrame) -> pd.DataFra
     throughput_df["throughput_score"] = 50.0  # default
 
     for shift_id, group in throughput_df.groupby("shift_id"):
+        # Single-waiter shifts receive neutral score — no peer comparison possible
+        if len(group) == 1:
+            throughput_df.loc[group.index, "throughput_score"] = 50.0
+            continue
         values = group["throughput"].values
         scores = [percentile_rank(values, v) for v in values]
         throughput_df.loc[group.index, "throughput_score"] = scores
@@ -147,6 +155,10 @@ def normalize_consistency_within_shift(consistency_df: pd.DataFrame) -> pd.DataF
     consistency_df["consistency_score"] = 50.0  # default
 
     for shift_id, group in consistency_df.groupby("shift_id"):
+        # Single-waiter shifts receive neutral score — no peer comparison possible
+        if len(group) == 1:
+            consistency_df.loc[group.index, "consistency_score"] = 50.0
+            continue
         values = group["consistency_raw"].values
         scores = [percentile_rank(values, v) for v in values]
         consistency_df.loc[group.index, "consistency_score"] = scores
